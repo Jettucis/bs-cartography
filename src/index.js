@@ -9,13 +9,13 @@ const basemap = L.tileLayer(config.basemap_url, {
     noWrap: true,
     minNativeZoom: config.minZoom,
     maxNativeZoom: config.maxZoom,
-    tileSize: new L.Point(map_dimensions.map_width, map_dimensions.map_height),
+    tileSize: 256//new L.Point(map_dimensions.map_width, map_dimensions.map_height),
 })
 const CRS = L.Util.extend(L.CRS.Simple, {transformation: new L.Transformation(1, 0, 1, 0)})
 const map = L.map('map', {
     crs: CRS,
     bounds: map_dimensions.bounds,
-    maxBounds: map_dimensions.bounds,
+    //maxBounds: map_dimensions.bounds,
     //center: params.center,
     minZoom: config.minZoom,
     maxZoom: config.maxZoom,
@@ -24,4 +24,4 @@ const map = L.map('map', {
     //mousemove: null,
 })
 
-map.fitBounds(map_dimensions.bounds) // TODO remove
+map.fitBounds(map_dimensions.bounds) // TODO remove once the template defines the target location
