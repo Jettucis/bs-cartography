@@ -1,4 +1,5 @@
 const map_dimensions = require('./map_dimensions.js')
+const coordinates = require('./coordinates.js')
 const config = require('./config.js')
 const icons = require('./markers.js')
 const template_data = JSON.parse($('span.map-template-data').text())
@@ -22,6 +23,9 @@ const map = L.map('map', {
     layers: [basemap],
     //mousemove: null,
 })
+
+coordinates.add_coordinates(map)
+coordinates.add_tile_hover(map)
 
 // Test
 if(ENV.DEBUG === true){

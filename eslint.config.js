@@ -19,6 +19,10 @@ module.exports = [
             'quotes': ['error', 'single'],
             'semi': ['error', 'never'],
             'eqeqeq': ['error', 'always'],
+            'no-unused-vars': ['error', {
+                'vars': 'all',
+                'args': 'none',
+            }]
         }
     },
 ]
