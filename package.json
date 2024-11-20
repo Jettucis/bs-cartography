@@ -4,7 +4,7 @@
   "description": "Brighter Shores Wiki cartography gadget",
   "main": "index.js",
   "scripts": {
-    "prod": "webpack --mode=production",
+    "prod": "webpack -c webpack.prod.config.js",
     "dev": "webpack -c webpack.dev.config.js"
   },
   "repository": {

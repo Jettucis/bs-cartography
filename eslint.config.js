@@ -9,6 +9,7 @@ module.exports = [
             globals: {
                 ...globals.browser,
                 L: false,
+                ENV: false,
             }
         },
         rules: {

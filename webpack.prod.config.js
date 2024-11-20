@@ -1,12 +1,11 @@
 const webpack = require('webpack')
 
 module.exports = {
-    mode: 'development',
-    devtool: 'source-map',
+    mode: 'production',
     plugins: [
         new webpack.DefinePlugin({
             ENV: {
-                DEBUG: true
+                DEBUG: false
             },
         })
     ]
