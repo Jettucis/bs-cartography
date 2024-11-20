@@ -1,0 +1,25 @@
+{
+  "name": "bs-cartography",
+  "version": "1.0.0",
+  "description": "Brighter Shores Wiki cartography gadget",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GauChoob/bs-cartography.git"
+  },
+  "author": "Gau Cho",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/GauChoob/bs-cartography/issues"
+  },
+  "homepage": "https://github.com/GauChoob/bs-cartography#readme",
+  "devDependencies": {
+    "eslint": "^9.15.0",
+    "globals": "^15.12.0",
+    "webpack": "^5.96.1",
+    "webpack-cli": "^5.1.4"
+  }
+}
