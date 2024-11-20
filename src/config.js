@@ -14,6 +14,6 @@ module.exports = {
     minZoom: 0,
     maxZoom: 4,
     // Tile layer url
-    basemap_url: 'https://brightershoreswiki.org/w/File:Brighter_Shores_World_Map_Tile_{z}_{y}_{x}.jpg',
-    basemap_error_url: 'https://brightershoreswiki.org/w/File:Brighter_Shores_World_Map_Tile_blank.png'
+    basemap_url: 'https://brightershoreswiki.org/images/Brighter_Shores_World_Map_Tile_{z}_{y}_{x}.jpg?93429',
+    basemap_error_url: 'https://brightershoreswiki.org/images/Brighter_Shores_World_Map_Tile_blank.png?8f905'
 }

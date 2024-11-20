@@ -5,8 +5,12 @@ function higher_pow2(n) {
     return Math.pow(2, p)
 }
 
-const map_width = higher_pow2(config.image_width/config.tile_width)
-const map_height = higher_pow2(config.image_height/config.tile_width)
+const map_pixel_width = higher_pow2(config.image_width)
+const map_pixel_height = higher_pow2(config.image_height)
+const map_width = map_pixel_width/config.tile_width
+const map_height = map_pixel_height/config.tile_width
 module.exports = {
+    map_width: map_width,
+    map_height: map_height,
     bounds: L.latLngBounds([0, 0], [map_height, map_width])
 }

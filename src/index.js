@@ -9,7 +9,7 @@ const basemap = L.tileLayer(config.basemap_url, {
     noWrap: true,
     minNativeZoom: config.minZoom,
     maxNativeZoom: config.maxZoom,
-    tileSize: config.tile_width
+    tileSize: new L.Point(map_dimensions.map_width, map_dimensions.map_height),
 })
 const CRS = L.Util.extend(L.CRS.Simple, {transformation: new L.Transformation(1, 0, 1, 0)})
 const map = L.map('map', {
