@@ -6,7 +6,8 @@ module.exports = {
     plugins: [
         new webpack.DefinePlugin({
             ENV: {
-                DEBUG: true
+                DEBUG: true,
+                IMPORT_JSON: true,
             },
         })
     ]

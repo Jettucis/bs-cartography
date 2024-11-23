@@ -2,8 +2,13 @@ const map_dimensions = require('./map_dimensions.js')
 const coordinates = require('./coordinates.js')
 const config = require('./config.js')
 const icons = require('./markers.js')
+const rooms = require('./rooms.js')
 const template_data = JSON.parse($('span.map-template-data').text())
 
+if(ENV.IMPORT_JSON === true){
+    // Ideally this would be saved in a separate .js file so that the geojson data is easier to modify?
+    window.geojson = require('../geojson/index.js')
+}
 
 const basemap = L.tileLayer(config.basemap_url, {
     errorTileUrl: config.basemap_error_url,
@@ -29,11 +34,17 @@ coordinates.add_tile_hover(map)
 
 // Test
 if(ENV.DEBUG === true){
+    // TopLeft and BottomRight corners
     L.marker(map_dimensions.bounds.getSouthWest(), {icon: icons.test_marker}).addTo(map).bindPopup(`TopLeft: ${map_dimensions.bounds.getSouthWest()}`)
     L.marker(map_dimensions.bounds.getNorthEast(), {icon: icons.test_marker}).addTo(map).bindPopup(`BottomRight: ${map_dimensions.bounds.getNorthEast()}`)
+    // 0, 0
     L.marker([0, 0], {icon: icons.test_marker}).addTo(map).addTo(map).bindPopup(`Zero: ${[0, 0]}`)
+    // Hopeport Portal Stone
     const hopeport_portal_stone = [config.hopeport_portal_stone_coord_y, config.hopeport_portal_stone_coord_x]
     L.marker(hopeport_portal_stone, {icon: icons.test_marker}).addTo(map).bindPopup(`Hopeport Portal Stone: ${hopeport_portal_stone}`)
+    // Highlight all rooms or episodes (pick one)
+    rooms.add_episode(map, 'All')
+    rooms.add_room(map, 'All')
 }
 
 map.fitBounds(map_dimensions.bounds) // TODO remove once the template defines the target location

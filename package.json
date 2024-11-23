@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "prod": "webpack -c webpack.prod.config.js",
-    "dev": "webpack -c webpack.dev.config.js"
+    "dev": "webpack -c webpack.dev.config.js",
+    "json": "node validate_json.js"
   },
   "repository": {
     "type": "git",

@@ -10,6 +10,7 @@ module.exports = [
                 ...globals.browser,
                 L: false,
                 ENV: false,
+                $: false,
             }
         },
         rules: {
