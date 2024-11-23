@@ -1,7 +1,7 @@
 const map_dimensions = require('./map_dimensions.js')
 const coordinates = require('./coordinates.js')
 const config = require('./config.js')
-const icons = require('./markers.js')
+const markers = require('./markers.js')
 const bounding_box = require('./bounding_box.js')
 const rooms = require('./rooms.js')
 
@@ -33,17 +33,18 @@ const map = L.map('map', {
 coordinates.add_coordinates(map)
 coordinates.add_tile_hover(map)
 bounding_box.focus_map(map)
+markers.setup_entities(map)
 
 // Test
 if(ENV.DEBUG === true){
     // TopLeft and BottomRight corners
-    L.marker(map_dimensions.bounds.getSouthWest(), {icon: icons.test_marker}).addTo(map).bindPopup(`TopLeft: ${map_dimensions.bounds.getSouthWest()}`)
-    L.marker(map_dimensions.bounds.getNorthEast(), {icon: icons.test_marker}).addTo(map).bindPopup(`BottomRight: ${map_dimensions.bounds.getNorthEast()}`)
+    L.marker(map_dimensions.bounds.getSouthWest(), {icon: markers.test_marker}).addTo(map).bindPopup(`TopLeft: ${map_dimensions.bounds.getSouthWest()}`)
+    L.marker(map_dimensions.bounds.getNorthEast(), {icon: markers.test_marker}).addTo(map).bindPopup(`BottomRight: ${map_dimensions.bounds.getNorthEast()}`)
     // 0, 0
-    L.marker([0, 0], {icon: icons.test_marker}).addTo(map).addTo(map).bindPopup(`Zero: ${[0, 0]}`)
+    L.marker([0, 0], {icon: markers.test_marker}).addTo(map).addTo(map).bindPopup(`Zero: ${[0, 0]}`)
     // Hopeport Portal Stone
     const hopeport_portal_stone = [config.hopeport_portal_stone_coord_y, config.hopeport_portal_stone_coord_x]
-    L.marker(hopeport_portal_stone, {icon: icons.test_marker}).addTo(map).bindPopup(`Hopeport Portal Stone: ${hopeport_portal_stone}`)
+    L.marker(hopeport_portal_stone, {icon: markers.test_marker}).addTo(map).bindPopup(`Hopeport Portal Stone: ${hopeport_portal_stone}`)
     // Highlight all rooms or episodes (pick one)
     //rooms.add_episode(map, 'All')
     rooms.add_room(map, 'All')

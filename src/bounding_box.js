@@ -1,5 +1,6 @@
 const config = require('./config.js')
 const rooms = require('./rooms.js')
+const markers = require('./markers.js')
 const template_data = JSON.parse($('span.map-template-data').text())
 
 const update_bounds = (bbox, point) => {
@@ -51,7 +52,6 @@ const focus_map = (map) => {
         rooms.add_room(map, target)
     }
     if(type === 'entities') {
-        // Fixed zoom level for all rooms
         map.fitBounds(bbox)
         // TODO: Highlight entity
     }

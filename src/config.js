@@ -52,6 +52,9 @@ const episode_style = (feature) => ({
 // Room default zoom on page load
 const room_zoom = 2
 
+/* Entities */
+const entity_minimum_width = 6
+
 module.exports = {
     image_width,
     image_height,
@@ -68,4 +71,5 @@ module.exports = {
     room_style,
     episode_style,
     room_zoom,
+    entity_minimum_width,
 }
