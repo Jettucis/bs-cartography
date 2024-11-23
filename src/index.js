@@ -3,6 +3,7 @@ const coordinates = require('./coordinates.js')
 const config = require('./config.js')
 const icons = require('./markers.js')
 const bounding_box = require('./bounding_box.js')
+const rooms = require('./rooms.js')
 
 if(ENV.IMPORT_JSON === true){
     // Ideally this would be saved in a separate .js file so that the geojson data is easier to modify?
@@ -23,6 +24,10 @@ const map = L.map('map', {
     minZoom: config.minZoom,
     maxZoom: config.maxZoom,
     layers: [basemap],
+    fullscreenControl: true,
+    fullScreenControlOptions: {
+        position: 'topleft',
+    }
 })
 
 coordinates.add_coordinates(map)
@@ -41,5 +46,5 @@ if(ENV.DEBUG === true){
     L.marker(hopeport_portal_stone, {icon: icons.test_marker}).addTo(map).bindPopup(`Hopeport Portal Stone: ${hopeport_portal_stone}`)
     // Highlight all rooms or episodes (pick one)
     //rooms.add_episode(map, 'All')
-    //rooms.add_room(map, 'All')
+    rooms.add_room(map, 'All')
 }
