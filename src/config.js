@@ -25,7 +25,7 @@ const tile_hover_style = {
     weight: 1,
 }
 
-/* Room */
+/* Room  and Episode */
 const room_colors = {
     'Hopeport': 'yellow',
     'Hopeforest': 'green',
@@ -49,6 +49,8 @@ const episode_style = (feature) => ({
     fillColor: room_colors[feature.properties.name || 'unknown'],
     fillOpacity: 0.2,
 })
+// Room default zoom on page load
+const room_zoom = 2
 
 module.exports = {
     image_width,
@@ -65,4 +67,5 @@ module.exports = {
     tile_hover_style,
     room_style,
     episode_style,
+    room_zoom,
 }
