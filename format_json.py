@@ -9,8 +9,8 @@ def custom_json_dump(file_in, file_out):
         data = json.load(f)
     json_string = json.dumps(data, indent=4)
 
-    # Modify the "coordinates" key to ensure nested lists are in one line
-    def process_coordinates(json_string, key="coordinates"):
+    # Modify the specified keys to ensure nested lists are in one line
+    def process_coordinates(json_string, key):
         # Split by lines to manipulate specific lines
         lines = json_string.splitlines()
         for i, line in enumerate(lines):
@@ -34,6 +34,7 @@ def custom_json_dump(file_in, file_out):
     # Post-process the JSON string to fix the coordinates formatting
     processed_json_string = process_coordinates(json_string, 'coordinates')
     processed_json_string = process_coordinates(processed_json_string, 'size')
+    processed_json_string = process_coordinates(processed_json_string, 'classes')
 
     # Save the formatted JSON to a file
     with open(file_out, "w") as f:

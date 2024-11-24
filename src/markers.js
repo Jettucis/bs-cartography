@@ -39,14 +39,18 @@ const add_entities = (map) => {
         entity_layer.remove()
     }
     const create_entity = (feature, latlng) => {
-        const icon = L.divIcon({className: feature.properties.image})
+        const icon = L.divIcon({className: feature.properties.classes.map(classname => `leaflet-marker-icon-${classname}`).join(' ')})
         const size = feature.properties.size
         const coordinates = adjust_coordinates(latlng, size)
         const marker = new EntityMarker(coordinates, {icon})
         marker.entity_size = size
         marker.entity_map = map
         marker.update_size()
-        marker.bindPopup(feature.properties.name)
+        if(ENV.DEBUG === true) {
+            marker.bindPopup(`${feature.properties.name}: ${feature.properties.classes.map(classname => `leaflet-marker-icon-${classname}`).join(' ')}`)
+        } else {
+            marker.bindPopup(feature.properties.name)
+        }
         return marker
     }
     entity_layer = new L.GeoJSON(window.geojson.entities.features, {
