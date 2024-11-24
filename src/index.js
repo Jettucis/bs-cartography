@@ -27,13 +27,16 @@ const map = L.map('map', {
     fullscreenControl: true,
     fullScreenControlOptions: {
         position: 'topleft',
-    }
+    },
+    // Set a temporary view that we will immediately overwrite
+    center: [config.hopeport_portal_stone_coord_y, config.hopeport_portal_stone_coord_x],
+    zoom: config.room_zoom,
 })
 
 coordinates.add_coordinates(map)
 coordinates.add_tile_hover(map)
-bounding_box.focus_map(map)
 markers.setup_entities(map)
+bounding_box.focus_map(map)
 
 // Test
 if(ENV.DEBUG === true){
@@ -47,5 +50,5 @@ if(ENV.DEBUG === true){
     L.marker(hopeport_portal_stone, {icon: markers.test_marker}).addTo(map).bindPopup(`Hopeport Portal Stone: ${hopeport_portal_stone}`)
     // Highlight all rooms or episodes (pick one)
     //rooms.add_episode(map, 'All')
-    rooms.add_room(map, 'All')
+    //rooms.add_room(map, 'All')
 }

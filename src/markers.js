@@ -2,6 +2,27 @@
 const config = require('./config.js')
 
 let entity_layer = null
+let highlighted_entity_layer = null
+
+
+const adjust_coordinates = (latlng, size) => [latlng.lat + size[1]/2, latlng.lng + size[0]/2]
+
+const highlight_entities = (map, entity, exact) => {
+    if(highlighted_entity_layer !== null) {
+        highlighted_entity_layer.remove()
+    }
+    const filter_exact = (feature, layer) => feature.properties.name === entity || entity === 'All'
+    const filter_inexact = (feature, layer) => feature.properties.name.toLowerCase().includes(entity.toLowerCase()) || entity === 'All'
+    highlighted_entity_layer = new L.GeoJSON(window.geojson.entities.features, {
+        filter: exact ? filter_exact : filter_inexact,
+        pointToLayer: (feature, latlng) => {
+            const size = feature.properties.size
+            const coordinates = adjust_coordinates(latlng, size)
+            return L.marker(coordinates, {icon: config.highlighted_entity_icon})
+        }
+    })
+    highlighted_entity_layer.addTo(map)
+}
 
 
 const EntityMarker = L.Marker.extend({
@@ -18,10 +39,9 @@ const add_entities = (map) => {
         entity_layer.remove()
     }
     const create_entity = (feature, latlng) => {
-        console.log(feature.properties.image)
         const icon = L.divIcon({className: feature.properties.image})
         const size = feature.properties.size
-        const coordinates = [latlng.lat + size[1]/2, latlng.lng + size[0]/2]
+        const coordinates = adjust_coordinates(latlng, size)
         const marker = new EntityMarker(coordinates, {icon})
         marker.entity_size = size
         marker.entity_map = map
@@ -49,7 +69,8 @@ const setup_entities = (map) => {
     add_entities_update_event(map)
 }
 module.exports = {
-    setup_entities
+    setup_entities,
+    highlight_entities,
 }
 
 if(ENV.DEBUG === true){

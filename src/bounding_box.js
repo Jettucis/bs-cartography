@@ -52,8 +52,12 @@ const focus_map = (map) => {
         rooms.add_room(map, target)
     }
     if(type === 'entities') {
+        bbox[0][0] -= config.highlighted_entity_margin
+        bbox[0][1] -= config.highlighted_entity_margin
+        bbox[1][0] += config.highlighted_entity_margin
+        bbox[1][1] += config.highlighted_entity_margin
         map.fitBounds(bbox)
-        // TODO: Highlight entity
+        markers.highlight_entities(map, target, true)
     }
 }
 

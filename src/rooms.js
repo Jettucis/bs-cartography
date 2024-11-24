@@ -1,7 +1,6 @@
 const config = require('./config.js')
 
 let room_layer = null
-//const get_room_layer = () => room_layer
 
 const on_each_room = (feature, layer) => {
     if(ENV.DEBUG === true) {
@@ -36,5 +35,4 @@ const add_episode = (map, episode) => {
 module.exports = {
     add_room,
     add_episode,
-    //get_room_layer
 }

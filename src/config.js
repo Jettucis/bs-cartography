@@ -1,4 +1,6 @@
 /* Base Image Properties */
+// Cache buster: Needs to be changed when the map tiles are updated
+const cache_buster = '41123'
 // Image dimensions in pixels
 const image_width = 3600
 const image_height = 1800
@@ -16,8 +18,8 @@ const maxZoom = 4
 const hopeport_portal_stone_coord_x = 94
 const hopeport_portal_stone_coord_y = 71
 // Tile layer url
-const basemap_url = 'https://brightershoreswiki.org/images/Brighter_Shores_World_Map_Tile_{z}_{y}_{x}.png?93429'
-const basemap_error_url = 'https://brightershoreswiki.org/images/Brighter_Shores_World_Map_Tile_blank.png?8f905'
+const basemap_url = `https://brightershoreswiki.org/images/Brighter_Shores_World_Map_Tile_{z}_{y}_{x}.png?${cache_buster}`
+const basemap_error_url = `https://brightershoreswiki.org/images/Brighter_Shores_World_Map_Tile_blank.png?${cache_buster}`
 
 /* Tile Hover */
 const tile_hover_style = {
@@ -53,7 +55,22 @@ const episode_style = (feature) => ({
 const room_zoom = 2
 
 /* Entities */
+// Minimum size of entities even when you zoom out a lot
 const entity_minimum_width = 6
+// Marker to highlight selected entities:
+const highlighted_entity_icon = L.icon({
+    iconUrl: `https://brightershoreswiki.org/images/Brighter_Shores_World_Map_Marker.png?${cache_buster}`,
+    //iconRetinaUrl: '',
+    //shadowUrl: 'marker-shadow.png',
+    iconSize: [25, 41],
+    iconAnchor: [12, 41],
+    popupAnchor: [1, -34],
+    tooltipAnchor: [16, -28],
+    //shadowSize: [41, 41],
+    className: 'leaflet-marker-icon-highlighted-entity'
+})
+// How many extra tiles to display around the highlighted selected entries
+const highlighted_entity_margin = 5
 
 module.exports = {
     image_width,
@@ -72,4 +89,6 @@ module.exports = {
     episode_style,
     room_zoom,
     entity_minimum_width,
+    highlighted_entity_icon,
+    highlighted_entity_margin,
 }
