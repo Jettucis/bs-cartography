@@ -1359,7 +1359,7 @@
                 "name": "Hairdresser",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-scissors"]
+                "classes": ["icon-hairdresser"]
             },
             "geometry": {
                 "type": "Point",
@@ -1528,7 +1528,7 @@
                 "name": "Enchantress",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-enchant"]
+                "classes": ["icon-enchantress"]
             },
             "geometry": {
                 "type": "Point",
@@ -1892,7 +1892,7 @@
                 "name": "Strange Stone",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-strange_stone"]
+                "classes": ["icon-storage"]
             },
             "geometry": {
                 "type": "Point",
@@ -2854,7 +2854,7 @@
                 "name": "Strange Stone",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-strange_stone"]
+                "classes": ["icon-storage"]
             },
             "geometry": {
                 "type": "Point",
@@ -6104,7 +6104,7 @@
                 "name": "Storage Rift Marker",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-strange_stone"]
+                "classes": ["icon-storage"]
             },
             "geometry": {
                 "type": "Point",
@@ -7066,7 +7066,7 @@
                 "name": "Storage Rift Marker",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-strange_stone"]
+                "classes": ["icon-storage"]
             },
             "geometry": {
                 "type": "Point",
@@ -10069,7 +10069,7 @@
                 "name": "Storage Rift Marker",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-strange_stone"]
+                "classes": ["icon-storage"]
             },
             "geometry": {
                 "type": "Point",
@@ -11642,7 +11642,7 @@
                 "name": "Storage Rift Marker",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-strange_stone"]
+                "classes": ["icon-storage"]
             },
             "geometry": {
                 "type": "Point",
