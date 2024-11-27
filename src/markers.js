@@ -39,7 +39,7 @@ const add_entities = (map) => {
         entity_layer.remove()
     }
     const create_entity = (feature, latlng) => {
-        const icon = L.divIcon({className: feature.properties.classes.map(classname => `leaflet-marker-icon-${classname}`).join(' ')})
+        const icon = L.divIcon({className: 'leaflet-marker-icon-entity ' + feature.properties.classes.map(classname => `leaflet-marker-icon-${classname}`).join(' ')})
         const size = feature.properties.size
         const coordinates = adjust_coordinates(latlng, size)
         const marker = new EntityMarker(coordinates, {icon})
