@@ -4,6 +4,7 @@ const config = require('./config.js')
 const markers = require('./markers.js')
 const bounding_box = require('./bounding_box.js')
 const rooms = require('./rooms.js')
+const room_overlay = require('./room_overlay.js')
 
 if(ENV.IMPORT_JSON === true){
     // Ideally this would be saved in a separate .js file so that the geojson data is easier to modify?
@@ -32,7 +33,7 @@ const map = L.map('map', {
     center: [config.hopeport_portal_stone_coord_y, config.hopeport_portal_stone_coord_x],
     zoom: config.room_zoom,
 })
-
+room_overlay.setup_room_overlay(map)
 coordinates.add_coordinates(map)
 coordinates.add_tile_hover(map)
 markers.setup_entities(map)

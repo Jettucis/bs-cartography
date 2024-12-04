@@ -20,6 +20,10 @@ const hopeport_portal_stone_coord_y = 71
 // Tile layer url
 const basemap_url = `https://brightershoreswiki.org/images/Brighter_Shores_World_Map_Tile_{z}_{y}_{x}.png?${cache_buster}`
 const basemap_error_url = `https://brightershoreswiki.org/images/Brighter_Shores_World_Map_Tile_blank.png?${cache_buster}`
+const room_overlay_url = `https://brightershoreswiki.org/images/Brighter_Shores_World_Map_Overlay_{z}_{y}_{x}.png?${cache_buster}`
+const room_overlay_error_url = `https://brightershoreswiki.org/images/Brighter_Shores_World_Map_Overlay_blank.png?${cache_buster}`
+// When to switch between Room data and Entity data
+const room_entity_zoom_cutoff = 3.5
 
 /* Tile Hover */
 const tile_hover_style = {
@@ -27,7 +31,7 @@ const tile_hover_style = {
     weight: 1,
 }
 
-/* Room  and Episode */
+/* Room and Episode */
 const room_colors = {
     'Hopeport': 'yellow',
     'Hopeforest': 'green',
@@ -84,6 +88,9 @@ module.exports = {
     hopeport_portal_stone_coord_y,
     basemap_url,
     basemap_error_url,
+    room_overlay_url,
+    room_overlay_error_url,
+    room_entity_zoom_cutoff,
     tile_hover_style,
     room_style,
     episode_style,

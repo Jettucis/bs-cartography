@@ -56,10 +56,25 @@ const add_entities = (map) => {
     entity_layer = new L.GeoJSON(window.geojson.entities.features, {
         pointToLayer: create_entity,
     })
-    entity_layer.addTo(map)
+}
+
+const entities_set_visibility = (map) => {
+    if(map.getZoom() > config.room_entity_zoom_cutoff && !map.hasLayer(entity_layer)) {
+        if(ENV.DEBUG === true){
+            console.log('Entity Overlay: Visible!')
+        }
+        entity_layer.addTo(map)
+    }
+    if(map.getZoom() < config.room_entity_zoom_cutoff && map.hasLayer(entity_layer)) {
+        if(ENV.DEBUG === true){
+            console.log('Entity Overlay: Invisible!')
+        }
+        entity_layer.remove()
+    }
 }
 const add_entities_update_event = (map) => {
     map.on('zoomend', (event) => {
+        entities_set_visibility(map)
         map.eachLayer((layer) => {
             if(!(layer instanceof EntityMarker)) {
                 return
@@ -68,9 +83,11 @@ const add_entities_update_event = (map) => {
         })
     })
 }
+
 const setup_entities = (map) => {
     add_entities(map)
     add_entities_update_event(map)
+    entities_set_visibility(map)
 }
 module.exports = {
     setup_entities,
