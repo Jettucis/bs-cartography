@@ -39,7 +39,17 @@ def custom_json_dump(file_in, file_out, type):
         f.write(f'if(!window.geojson) {{\n    window.geojson = {{}}\n}}\nwindow.geojson.{type} = JSON.parse(`\n{processed_json_string}\n`)')
 
 
+def compressed_json_dump(file_in, file_out, type):
+    with open(file_in, 'r') as f:
+        data = json.load(f)
+    json_string = json.dumps(data)
+    with open(file_out, 'w') as f:
+        f.write(f'if(!window.geojson) {{\n    window.geojson = {{}}\n}}\nwindow.geojson.{type} = JSON.parse(`\n{json_string}\n`)')
+
+
 # Example usage
 custom_json_dump('geojson/rooms.json', 'dist/rooms.js', 'rooms')
 custom_json_dump('geojson/episodes.json', 'dist/episodes.js', 'episodes')
 custom_json_dump('geojson/entities.json', 'dist/entities.js', 'entities')
+compressed_json_dump('geojson/room_data.json', 'dist/room_data.js', 'room_data')
+

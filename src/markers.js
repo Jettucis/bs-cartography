@@ -18,7 +18,7 @@ const highlight_entities = (map, entity, exact) => {
         pointToLayer: (feature, latlng) => {
             const size = feature.properties.size
             const coordinates = adjust_coordinates(latlng, size)
-            return L.marker(coordinates, {icon: config.highlighted_entity_icon})
+            return L.marker(coordinates, {icon: config.highlighted_entity_icon}).bindPopup(`<a class="leaflet-popup-highlighted-entity" href="${config.href}${feature.properties.name}">${feature.properties.name}</a>`)
         }
     })
     highlighted_entity_layer.addTo(map)
@@ -47,9 +47,10 @@ const add_entities = (map) => {
         marker.entity_map = map
         marker.update_size()
         if(ENV.DEBUG === true) {
-            marker.bindPopup(`${feature.properties.name}: ${feature.properties.classes.map(classname => `leaflet-marker-icon-${classname}`).join(' ')}`)
-        } else {
-            marker.bindPopup(feature.properties.name)
+            marker.bindPopup(`<a class="leaflet-popup-entity" href="${config.href}${feature.properties.name}">${feature.properties.name}</a> ${feature.properties.classes.map(classname => `leaflet-marker-icon-${classname}`).join(' ')}`)
+        }
+        if(ENV.DEBUG === false) {
+            marker.bindPopup(`<a class="leaflet-popup-entity" href="${config.href}${feature.properties.name}">${feature.properties.name}</a>`)
         }
         return marker
     }

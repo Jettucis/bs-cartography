@@ -3,9 +3,7 @@ const config = require('./config.js')
 let room_layer = null
 
 const on_each_room = (feature, layer) => {
-    //if(ENV.DEBUG === true) {
-        layer.bindPopup(feature.properties.name)
-    //}
+    layer.bindPopup(`<a class="leaflet-popup-area" href="${config.href}${feature.properties.name}">${feature.properties.name}</a>`)
 }
 
 const add_room = (map, room) => {

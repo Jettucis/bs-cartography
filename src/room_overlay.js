@@ -22,6 +22,25 @@ const add_room_overlay_update_event = (map) => {
     map.on('zoomend', (event) => room_overlay_set_visibility(map))
 }
 
+const add_room_overlay_click_event = (map) => {
+    map.on('click', (event) => {
+        if(!map.hasLayer(room_overlay_layer)) {
+            return
+        }
+        for(const room_datum of window.geojson.room_data) {
+            if(L.latLngBounds(room_datum.coordinates).contains(event.latlng)) {
+                if(ENV.DEBUG === true){
+                    console.log(`Link to ${room_datum.link}`)
+                }
+                if(ENV.DEBUG === false){
+                    location.href = `${config.href}${room_datum.link}`
+                    return
+                }
+            }
+        }
+    })
+}
+
 const setup_room_overlay = (map) => {
     if(room_overlay_layer !== null) {
         room_overlay_layer.remove()
@@ -35,6 +54,7 @@ const setup_room_overlay = (map) => {
     })
     add_room_overlay_update_event(map)
     room_overlay_set_visibility(map)
+    add_room_overlay_click_event(map)
 }
 
 

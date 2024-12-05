@@ -76,6 +76,9 @@ const highlighted_entity_icon = L.icon({
 // How many extra tiles to display around the highlighted selected entries
 const highlighted_entity_margin = 5
 
+/* Misc */
+const href = 'https://brightershoreswiki.org/w/'
+
 module.exports = {
     image_width,
     image_height,
@@ -98,4 +101,5 @@ module.exports = {
     entity_minimum_width,
     highlighted_entity_icon,
     highlighted_entity_margin,
+    href,
 }
