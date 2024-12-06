@@ -1,6 +1,6 @@
 /* Base Image Properties */
 // Cache buster: Needs to be changed when the map tiles are updated
-const cache_buster = '41123'
+const cache_buster = '41204'
 // Image dimensions in pixels
 const image_width = 3600
 const image_height = 1800

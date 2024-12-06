@@ -32,6 +32,7 @@ const map = L.map('map', {
     // Set a temporary view that we will immediately overwrite
     center: [config.hopeport_portal_stone_coord_y, config.hopeport_portal_stone_coord_x],
     zoom: config.room_zoom,
+    zoomAnimation: true,
 })
 room_overlay.setup_room_overlay(map)
 coordinates.add_coordinates(map)
