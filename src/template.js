@@ -1,6 +1,5 @@
 const template_data = JSON.parse($('span.map-template-data').text())
 
-
 const types = {
     'Episode': 'episodes',
     'Room': 'rooms',

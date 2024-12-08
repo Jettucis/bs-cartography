@@ -66,7 +66,7 @@ const episode_style = (feature) => ({
     fillOpacity: 0.2,
 })
 // Room default zoom on page load
-const room_zoom = 2
+const room_zoom = 4
 
 /* Entities */
 // Minimum size of entities even when you zoom out a lot
