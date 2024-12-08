@@ -11,8 +11,6 @@ const map_pixel_height = higher_pow2(config.image_height)
 // The dimensions of the map in coordinates
 const map_width = map_pixel_width/config.tile_width
 const map_height = map_pixel_height/config.tile_width
-// The size of the most zoomed-out map tile in coordinates
-const tile_zoom0_size = Math.max(map_width, map_height)
 
 // The location of the Hopeport Portal Stone in coordinates, relative to the topleft corner of the image
 const hopeport_portal_stone_x = Math.floor(config.hopeport_portal_stone_image_x/config.tile_width)
@@ -23,12 +21,13 @@ const border_up = config.hopeport_portal_stone_coord_y - hopeport_portal_stone_y
 const border_right = border_left + map_width
 const border_down = border_up + map_height
 
+const size_ratio = 2*config.tile_width/config.image_tile_dimensions // TODO - this equation works for the current image zoom, but I'm not sure why we need to multiply by 2... if ever the coordinate system breaks, this might be the culprit
+
 // Automatically translate the map so that the Hopeport Portal Stone is set to the desired coordinate in the config
 // Also flip the y axis
-const CRS = L.Util.extend(L.CRS.Simple, {transformation: new L.Transformation(1, -border_left, 1, -border_up)})
+const CRS = L.Util.extend(L.CRS.Simple, {transformation: new L.Transformation(size_ratio, -border_left, size_ratio, -border_up)})
 
 module.exports = {
     CRS,
-    tile_zoom0_size,
     bounds: L.latLngBounds([border_up, border_left], [border_down, border_right])
 }

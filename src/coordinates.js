@@ -4,6 +4,9 @@ const Coordinates = L.Control.extend({
     onAdd: function(map) {
         const coordinates = L.DomUtil.create('div', 'leaflet-wiki-coordinates')
         map.on('mousemove', function(e) {
+            if(map.is_zooming) {
+                return
+            }
             const lat = Math.floor(e.latlng.lat)
             const lng = Math.floor(e.latlng.lng)
             coordinates.innerText = `[${lng}, ${lat}]`
@@ -20,6 +23,9 @@ const TileHover = L.rectangle([[-10000, -10000], [-10000, -10000]], config.tile_
 function add_tile_hover(map) {
     TileHover.addTo(map)
     map.on('mousemove', function(e) {
+        if(map.is_zooming) {
+            return
+        }
         const lat = Math.floor(e.latlng.lat)
         const lng = Math.floor(e.latlng.lng)
         TileHover.setBounds([[lat, lng], [lat + 1, lng + 1]])

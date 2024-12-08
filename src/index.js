@@ -18,7 +18,7 @@ const basemap = L.tileLayer(config.basemap_url, {
     noWrap: true,
     minNativeZoom: config.minZoom,
     maxNativeZoom: config.maxZoom,
-    tileSize: map_dimensions.tile_zoom0_size,
+    tileSize: config.image_tile_dimensions,
 })
 const map = L.map('map', {
     crs: map_dimensions.CRS,
@@ -36,6 +36,20 @@ const map = L.map('map', {
     zoom: config.room_zoom,
     zoomAnimation: true,
 })
+map.on('zoomstart', function(e) {
+    if(ENV.DEBUG === true) {
+        console.log('Zoom Start')
+    }
+    map.is_zooming = true
+})
+map.on('zoomend', function(e) {
+    if(ENV.DEBUG === true) {
+        console.log('Zoom End')
+    }
+    map.is_zooming = false
+})
+map.is_zooming = false
+
 room_overlay.setup_room_overlay(map)
 coordinates.add_coordinates(map)
 coordinates.add_tile_hover(map)
@@ -58,4 +72,7 @@ if(ENV.DEBUG === true){
     //const highlight = require('./highlight.js')
     //highlight.add_episode(map, 'All')
     //highlight.add_room(map, 'All')
+    map.on('zoom', function(e) {
+        console.log(`Zoom: ${this.getZoom()}`)
+    })
 }

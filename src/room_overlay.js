@@ -1,5 +1,4 @@
 const config = require('./config.js')
-const map_dimensions = require('./map_dimensions.js')
 
 let room_overlay_layer = null
 let clicked_room_overlay = null
@@ -39,6 +38,9 @@ const highlight_room_overlay = (map, room_datum) => {
 
 const add_room_overlay_click_event = (map) => {
     map.on('click', (event) => {
+        if(map.is_zooming) {
+            return
+        }
         if(!map.hasLayer(room_overlay_layer)) {
             return
         }
@@ -71,7 +73,7 @@ const setup_room_overlay = (map) => {
         noWrap: true,
         minNativeZoom: config.minZoom,
         maxNativeZoom: config.maxZoom,
-        tileSize: map_dimensions.tile_zoom0_size,
+        tileSize: config.image_tile_dimensions,
     })
     add_room_overlay_update_event(map)
     room_overlay_set_visibility(map)
