@@ -47,6 +47,14 @@ const room_style = (feature) => ({
     fillColor: room_colors[feature.properties.episode || 'unknown'],
     fillOpacity: 0.2,
 })
+const room_overlay_style = {
+    color: 'black',
+    weight: 3,
+    opacity: 1,
+    fill: true,
+    fillColor: 'black',
+    fillOpacity: 0.2,
+}
 const episode_style = (feature) => ({
     color: room_colors[feature.properties.name || 'unknown'],
     weight: 3,
@@ -96,6 +104,7 @@ module.exports = {
     room_entity_zoom_cutoff,
     tile_hover_style,
     room_style,
+    room_overlay_style,
     episode_style,
     room_zoom,
     entity_minimum_width,

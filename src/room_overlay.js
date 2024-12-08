@@ -2,6 +2,8 @@ const config = require('./config.js')
 const map_dimensions = require('./map_dimensions.js')
 
 let room_overlay_layer = null
+let clicked_room_overlay = null
+let highlighted_room_overlay_layer = null
 
 const room_overlay_set_visibility = (map) => {
     if(map.getZoom() < config.room_entity_zoom_cutoff && !map.hasLayer(room_overlay_layer)) {
@@ -15,6 +17,8 @@ const room_overlay_set_visibility = (map) => {
             console.log('Room Overlay: Invisible!')
         }
         room_overlay_layer.remove()
+        clicked_room_overlay = null
+        highlight_room_overlay(map, clicked_room_overlay)
     }
 }
 
@@ -22,22 +26,39 @@ const add_room_overlay_update_event = (map) => {
     map.on('zoomend', (event) => room_overlay_set_visibility(map))
 }
 
+const highlight_room_overlay = (map, room_datum) => {
+    if(highlighted_room_overlay_layer !== null) {
+        highlighted_room_overlay_layer.remove()
+    }
+    if(room_datum === null) {
+        return
+    }
+    highlighted_room_overlay_layer = L.rectangle(room_datum.coordinates, config.room_overlay_style)
+    highlighted_room_overlay_layer.addTo(map)
+}
+
 const add_room_overlay_click_event = (map) => {
     map.on('click', (event) => {
         if(!map.hasLayer(room_overlay_layer)) {
             return
         }
+        const previous_clicked_room_overlay = clicked_room_overlay
+        clicked_room_overlay = null
         for(const room_datum of window.geojson.room_data) {
             if(L.latLngBounds(room_datum.coordinates).contains(event.latlng)) {
-                if(ENV.DEBUG === true){
-                    console.log(`Link to ${room_datum.link}`)
-                }
-                if(ENV.DEBUG === false){
-                    location.href = `${config.href}${room_datum.link}`
-                    return
+                clicked_room_overlay = room_datum
+                if(previous_clicked_room_overlay === room_datum) {
+                    if(ENV.DEBUG === true){
+                        console.log(`Link to ${room_datum.link}`)
+                    }
+                    if(ENV.DEBUG === false){
+                        location.href = `${config.href}${room_datum.link}`
+                        return
+                    }
                 }
             }
         }
+        highlight_room_overlay(map, clicked_room_overlay)
     })
 }
 
