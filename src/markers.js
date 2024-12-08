@@ -2,28 +2,8 @@
 const config = require('./config.js')
 
 let entity_layer = null
-let highlighted_entity_layer = null
-
 
 const adjust_coordinates = (latlng, size) => [latlng.lat + size[1]/2, latlng.lng + size[0]/2]
-
-const highlight_entities = (map, entity, exact) => {
-    if(highlighted_entity_layer !== null) {
-        highlighted_entity_layer.remove()
-    }
-    const filter_exact = (feature, layer) => feature.properties.name === entity || entity === 'All'
-    const filter_inexact = (feature, layer) => feature.properties.name.toLowerCase().includes(entity.toLowerCase()) || entity === 'All'
-    highlighted_entity_layer = new L.GeoJSON(window.geojson.entities.features, {
-        filter: exact ? filter_exact : filter_inexact,
-        pointToLayer: (feature, latlng) => {
-            const size = feature.properties.size
-            const coordinates = adjust_coordinates(latlng, size)
-            return L.marker(coordinates, {icon: config.highlighted_entity_icon}).bindPopup(`<a class="leaflet-popup-highlighted-entity" href="${config.href}${feature.properties.name}">${feature.properties.name}</a>`)
-        }
-    })
-    highlighted_entity_layer.addTo(map)
-}
-
 
 const EntityMarker = L.Marker.extend({
     update_size() {
@@ -91,8 +71,8 @@ const setup_entities = (map) => {
     entities_set_visibility(map)
 }
 module.exports = {
+    adjust_coordinates,
     setup_entities,
-    highlight_entities,
 }
 
 if(ENV.DEBUG === true){

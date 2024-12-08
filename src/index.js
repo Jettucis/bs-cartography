@@ -2,9 +2,11 @@ const map_dimensions = require('./map_dimensions.js')
 const coordinates = require('./coordinates.js')
 const config = require('./config.js')
 const markers = require('./markers.js')
+const highlight = require('./highlight.js')
 const bounding_box = require('./bounding_box.js')
-const rooms = require('./rooms.js')
 const room_overlay = require('./room_overlay.js')
+const template = require('./template.js')
+const search_bar = require('./search_bar.js')
 
 if(ENV.IMPORT_JSON === true){
     // Ideally this would be saved in a separate .js file so that the geojson data is easier to modify?
@@ -38,7 +40,9 @@ room_overlay.setup_room_overlay(map)
 coordinates.add_coordinates(map)
 coordinates.add_tile_hover(map)
 markers.setup_entities(map)
-bounding_box.focus_map(map)
+highlight.highlight(map, template.type, template.targets, true)
+bounding_box.focus_map(map, template.type, template.targets, true)
+search_bar.add_search_bar(map)
 
 // Test
 if(ENV.DEBUG === true){
@@ -51,6 +55,7 @@ if(ENV.DEBUG === true){
     const hopeport_portal_stone = [config.hopeport_portal_stone_coord_y, config.hopeport_portal_stone_coord_x]
     L.marker(hopeport_portal_stone, {icon: markers.test_marker}).addTo(map).bindPopup(`Hopeport Portal Stone: ${hopeport_portal_stone}`)
     // Highlight all rooms or episodes (pick one)
-    //rooms.add_episode(map, 'All')
-    //rooms.add_room(map, 'All')
+    //const highlight = require('./highlight.js')
+    //highlight.add_episode(map, 'All')
+    //highlight.add_room(map, 'All')
 }

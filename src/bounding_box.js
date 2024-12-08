@@ -1,7 +1,5 @@
 const config = require('./config.js')
-const rooms = require('./rooms.js')
-const markers = require('./markers.js')
-const template_data = JSON.parse($('span.map-template-data').text())
+const filter = require('./filter.js')
 
 const update_bounds = (bbox, point) => {
     // bounds is [[y, x], [y, x]]
@@ -31,33 +29,33 @@ const get_middle_of_bounding_box = (bbox) => [
     (bbox[0][1] + bbox[1][1])/2
 ]
 
-const types = {
-    'Episode': 'episodes',
-    'Room': 'rooms',
-    'Entity': 'entities',
-}
-const focus_map = (map) => {
-    const type = types[template_data.type]
-    const target = template_data.target
-    const features = window.geojson[type].features.filter((feature) => feature.properties.name === target)
+const focus_map = (map, type, targets, exact) => {
+    let features = []
+    if(type === 'all') {
+        for(const key of ['episodes', 'rooms', 'entities']) {
+            features = features.concat(window.geojson[key].features.filter(filter.get_filter(targets, exact)))
+        }
+    } else {
+        features = window.geojson[type].features.filter(filter.get_filter(targets, exact))
+    }
+    if(features.length === 0){
+        return
+    }
     const bbox = get_bounding_box(features)
     if(type === 'episodes') {
         map.fitBounds(bbox)
-        rooms.add_episode(map, target)
     }
     if(type === 'rooms') {
         // Fixed zoom level for all rooms
         const center = get_middle_of_bounding_box(bbox)
         map.setView(center, config.room_zoom)
-        rooms.add_room(map, target)
     }
-    if(type === 'entities') {
+    if(type === 'entities' || type === 'all') {
         bbox[0][0] -= config.highlighted_entity_margin
         bbox[0][1] -= config.highlighted_entity_margin
         bbox[1][0] += config.highlighted_entity_margin
         bbox[1][1] += config.highlighted_entity_margin
         map.fitBounds(bbox)
-        markers.highlight_entities(map, target, true)
     }
 }
 
