@@ -6,10 +6,6 @@ let highlighted_episode_layer = null
 let highlighted_room_layer = null
 let highlighted_entity_layer = null
 
-const on_each_room = (feature, layer) => {
-    layer.bindPopup(`<a class="leaflet-popup-area" href="${config.href}${feature.properties.name}">${feature.properties.name}</a>`)
-}
-
 const highlight_episodes = (map, episodes, exact) => {
     if(highlighted_episode_layer !== null) {
         highlighted_episode_layer.remove()
@@ -17,7 +13,7 @@ const highlight_episodes = (map, episodes, exact) => {
     highlighted_episode_layer = new L.GeoJSON(window.geojson.episodes.features, {
         filter: filter.get_filter(episodes, true),  // override exact, always true for episode names
         style: config.episode_style,
-        onEachFeature: on_each_room,
+        interactive: false,
     })
     highlighted_episode_layer.addTo(map)
 }
@@ -29,7 +25,7 @@ const highlight_rooms = (map, rooms, exact) => {
     highlighted_room_layer = new L.GeoJSON(window.geojson.rooms.features, {
         filter: filter.get_filter(rooms, exact),
         style: config.room_style,
-        onEachFeature: on_each_room,
+        interactive: false,
     })
     highlighted_room_layer.addTo(map)
 }
