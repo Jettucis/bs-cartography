@@ -86,6 +86,7 @@ const highlighted_entity_margin = 5
 
 /* Misc */
 const href = 'https://brightershoreswiki.org/w/'
+const minimum_characters_in_automatic_search = 3
 
 module.exports = {
     image_width,
@@ -111,4 +112,5 @@ module.exports = {
     highlighted_entity_icon,
     highlighted_entity_margin,
     href,
+    minimum_characters_in_automatic_search,
 }

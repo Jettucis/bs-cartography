@@ -1,3 +1,4 @@
+const config = require('./config.js')
 const highlight = require('./highlight.js')
 const bounding_box = require('./bounding_box.js')
 
@@ -31,10 +32,11 @@ const Search = L.Control.extend({
             })
         }
         search_input.addEventListener('input', function(e) {
-            if(search_options.includes(this.value)) {
+            if(this.value.length >= config.minimum_characters_in_automatic_search) {
                 const targets = this.value.split(';').map(target => target.trim())
-                highlight.highlight(map, 'all', targets, true)
-                bounding_box.focus_map(map, 'all', targets, true)
+                highlight.highlight(map, 'all', targets, false)
+            } else {
+                highlight.highlight(map, 'all', ['^^NO TARGET - STRING WITH NO MATCHES^^'], true)
             }
         })
         search_input.addEventListener('keyup', function(e) {
