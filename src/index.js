@@ -47,13 +47,13 @@ search_bar.add_search_bar(map)
 // Test
 if(ENV.DEBUG === true){
     // TopLeft and BottomRight corners
-    L.marker(map_dimensions.bounds.getSouthWest(), {icon: markers.test_marker}).addTo(map).bindPopup(`TopLeft: ${map_dimensions.bounds.getSouthWest()}`)
-    L.marker(map_dimensions.bounds.getNorthEast(), {icon: markers.test_marker}).addTo(map).bindPopup(`BottomRight: ${map_dimensions.bounds.getNorthEast()}`)
+    L.marker(map_dimensions.bounds.getSouthWest(), {icon: markers.test_marker}).addTo(map).bindPopup(`DEBUG - TopLeft: ${map_dimensions.bounds.getSouthWest()}`)
+    L.marker(map_dimensions.bounds.getNorthEast(), {icon: markers.test_marker}).addTo(map).bindPopup(`DEBUG - BottomRight: ${map_dimensions.bounds.getNorthEast()}`)
     // 0, 0
     L.marker([0, 0], {icon: markers.test_marker}).addTo(map).addTo(map).bindPopup(`Zero: ${[0, 0]}`)
     // Hopeport Portal Stone
     const hopeport_portal_stone = [config.hopeport_portal_stone_coord_y, config.hopeport_portal_stone_coord_x]
-    L.marker(hopeport_portal_stone, {icon: markers.test_marker}).addTo(map).bindPopup(`Hopeport Portal Stone: ${hopeport_portal_stone}`)
+    L.marker(hopeport_portal_stone, {icon: markers.test_marker}).addTo(map).bindPopup(`DEBUG - Hopeport Portal Stone: ${hopeport_portal_stone}`)
     // Highlight all rooms or episodes (pick one)
     //const highlight = require('./highlight.js')
     //highlight.add_episode(map, 'All')
