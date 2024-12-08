@@ -50,13 +50,8 @@ const add_room_overlay_click_event = (map) => {
             if(L.latLngBounds(room_datum.coordinates).contains(event.latlng)) {
                 clicked_room_overlay = room_datum
                 if(previous_clicked_room_overlay === room_datum) {
-                    if(ENV.DEBUG === true){
-                        console.log(`Link to ${room_datum.link}`)
-                    }
-                    if(ENV.DEBUG === false){
-                        location.href = `${config.href}${room_datum.link}`
-                        return
-                    }
+                    location.href = `${config.href}${room_datum.link}`
+                    return
                 }
             }
         }
