@@ -13,12 +13,26 @@ const room_properties = [
     'episode',
 ]
 
+const validate_polygon = feature => {
+    if(feature.geometry.type !== 'Polygon') {
+        console.log(`${feature.properties.name} invalid geometry type (not polygon)`)
+        return
+    }
+    const coordinates = feature.geometry.coordinates
+    if(coordinates.length !== 1) {
+        console.log(`${feature.properties.name} multi-polygonal`)
+    }
+    const polygon = coordinates[0]
+    if(polygon[0][0] !== polygon[polygon.length - 1][0] || polygon[0][1] !== polygon[polygon.length - 1][1]) {
+        console.log(`${feature.properties.name} first and last coordinates are not identical`)
+    }
+}
+// TODO: validate polygons as closed loops
+
 console.log('Checking Episodes')
 const episode_names = new Set()
 for(const episode of geojson.episodes.features) {
-    if(episode.geometry.type !== 'Polygon') {
-        console.log(`${episode.properties.name} invalid geometry type`)
-    }
+    validate_polygon(episode)
     if(episode.properties.category !== 'Episode') {
         console.log(`${episode.properties.name} invalid category`)
     }
@@ -39,9 +53,7 @@ for(const episode of geojson.episodes.features) {
 console.log('Checking Rooms')
 const room_names = new Set()
 for(const room of geojson.rooms.features) {
-    if(room.geometry.type !== 'Polygon') {
-        console.log(`${room.properties.name} invalid geometry type`)
-    }
+    validate_polygon(room)
     if(room.properties.category !== 'Room') {
         console.log(`${room.properties.name} invalid category`)
     }
