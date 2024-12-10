@@ -41,14 +41,15 @@ const room_colors = {
     'Crenopolis': 'gray',
     'unknown': 'black',
 }
-const room_style = (feature) => ({
-    color: room_colors[feature.properties.episode || 'unknown'],
+const room_style = {
+    color: 'yellow',
     weight: 3,
     opacity: 1,
     fill: true,
-    fillColor: room_colors[feature.properties.episode || 'unknown'],
-    fillOpacity: 0.2,
-})
+    fillColor: 'black',
+    fillOpacity: 0.5,
+    interactive: false,
+}
 const room_overlay_style = {
     color: 'black',
     weight: 3,
@@ -56,6 +57,7 @@ const room_overlay_style = {
     fill: true,
     fillColor: 'black',
     fillOpacity: 0.2,
+    interactive: false,
 }
 const episode_style = (feature) => ({
     color: room_colors[feature.properties.name || 'unknown'],
@@ -88,7 +90,11 @@ const highlighted_entity_margin = 5
 
 /* Misc */
 const href = 'https://brightershoreswiki.org/w/'
+// Only show search results for text with at least x characters
 const minimum_characters_in_automatic_search = 3
+// Large box around the entire world - should not be visible
+const world_dimension = 100000
+const world_dimensions = [[-world_dimension, -world_dimension], [-world_dimension, world_dimension], [world_dimension, world_dimension], [world_dimension, -world_dimension]]
 
 module.exports = {
     image_width,
@@ -116,4 +122,5 @@ module.exports = {
     highlighted_entity_margin,
     href,
     minimum_characters_in_automatic_search,
+    world_dimensions,
 }

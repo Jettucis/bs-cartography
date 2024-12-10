@@ -38,7 +38,7 @@ const focus_map = (map, type, targets, exact) => {
     } else {
         features = window.geojson[type].features.filter(filter.get_filter(targets, exact))
     }
-    if(features.length === 0){
+    if(features.length === 0) {
         return
     }
     const bbox = get_bounding_box(features)

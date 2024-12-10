@@ -23,9 +23,9 @@ const Search = L.Control.extend({
         search_input.placeholder = 'Search...'
         search_input.autoComplete = 'on'
         search_input.setAttribute('list', 'leaflet-wiki-search-suggestions')
-        for(const listener of ['click', 'dblclick', 'mousedown']){
+        for(const listener of ['click', 'dblclick', 'mousedown']) {
             search_input.addEventListener(listener, function(e) {
-                if(ENV.DEBUG === true){
+                if(ENV.DEBUG === true) {
                     console.log(listener)
                 }
                 e.stopPropagation()

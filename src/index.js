@@ -8,7 +8,7 @@ const room_overlay = require('./room_overlay.js')
 const template = require('./template.js')
 const search_bar = require('./search_bar.js')
 
-if(ENV.IMPORT_JSON === true){
+if(ENV.IMPORT_JSON === true) {
     // Ideally this would be saved in a separate .js file so that the geojson data is easier to modify?
     window.geojson = require('../geojson/index.js')
 }
@@ -59,7 +59,7 @@ bounding_box.focus_map(map, template.type, template.targets, true)
 search_bar.add_search_bar(map)
 
 // Test
-if(ENV.DEBUG === true){
+if(ENV.DEBUG === true) {
     // TopLeft and BottomRight corners
     L.marker(map_dimensions.bounds.getSouthWest(), {icon: markers.test_marker}).addTo(map).bindPopup(`DEBUG - TopLeft: ${map_dimensions.bounds.getSouthWest()}`)
     L.marker(map_dimensions.bounds.getNorthEast(), {icon: markers.test_marker}).addTo(map).bindPopup(`DEBUG - BottomRight: ${map_dimensions.bounds.getNorthEast()}`)

@@ -6,13 +6,13 @@ let highlighted_room_overlay_layer = null
 
 const room_overlay_set_visibility = (map) => {
     if(map.getZoom() < config.room_entity_zoom_cutoff && !map.hasLayer(room_overlay_layer)) {
-        if(ENV.DEBUG === true){
+        if(ENV.DEBUG === true) {
             console.log('Room Overlay: Visible!')
         }
         room_overlay_layer.addTo(map)
     }
     if(map.getZoom() > config.room_entity_zoom_cutoff && map.hasLayer(room_overlay_layer)) {
-        if(ENV.DEBUG === true){
+        if(ENV.DEBUG === true) {
             console.log('Room Overlay: Invisible!')
         }
         room_overlay_layer.remove()

@@ -41,13 +41,13 @@ const add_entities = (map) => {
 
 const entities_set_visibility = (map) => {
     if(map.getZoom() > config.room_entity_zoom_cutoff && !map.hasLayer(entity_layer)) {
-        if(ENV.DEBUG === true){
+        if(ENV.DEBUG === true) {
             console.log('Entity Overlay: Visible!')
         }
         entity_layer.addTo(map)
     }
     if(map.getZoom() < config.room_entity_zoom_cutoff && map.hasLayer(entity_layer)) {
-        if(ENV.DEBUG === true){
+        if(ENV.DEBUG === true) {
             console.log('Entity Overlay: Invisible!')
         }
         entity_layer.remove()
@@ -75,7 +75,7 @@ module.exports = {
     setup_entities,
 }
 
-if(ENV.DEBUG === true){
+if(ENV.DEBUG === true) {
     module.exports.test_marker = L.icon({
         iconUrl: 'https://brightershoreswiki.org/images/Hopeport_episode_icon.png?8f107',
         iconSize: [20, 20],
