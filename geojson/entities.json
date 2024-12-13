@@ -12042,7 +12042,7 @@
         {
             "type": "Feature",
             "properties": {
-                "name": "TODO: Wooded Clifftop interactable",
+                "name": "Protruding Rock",
                 "category": "Entity",
                 "size": [1, 1], 
                 "classes": ["icon-obstacle"]
@@ -12055,7 +12055,7 @@
         {
             "type": "Feature",
             "properties": {
-                "name": "TODO: North Peat Bog interactable",
+                "name": "Repaired Box",
                 "category": "Entity",
                 "size": [1, 1], 
                 "classes": ["icon-obstacle"]
