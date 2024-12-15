@@ -7,7 +7,8 @@
     "prod": "webpack -c webpack.prod.config.js",
     "dev": "webpack -c webpack.dev.config.js",
     "check_json": "node validate_json.js",
-    "json": "python generate_json_files.py"
+    "json": "python generate_json_files.py",
+    "links": "python generate_map_links.py"
   },
   "repository": {
     "type": "git",
