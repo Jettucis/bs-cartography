@@ -1,6 +1,6 @@
 /* Base Image Properties */
 // Cache buster: Needs to be changed every time that the map tiles are updated
-const cache_buster = '41207'
+const cache_buster = '41214'
 // Image dimensions in pixels
 const image_width = 26800
 const image_height = 14400
@@ -106,8 +106,6 @@ module.exports = {
     tile_width,
     hopeport_portal_stone_image_x,
     hopeport_portal_stone_image_y,
-    min_zoom,
-    max_zoom,
     min_native_zoom,
     max_native_zoom,
     hopeport_portal_stone_coord_x,
@@ -117,6 +115,8 @@ module.exports = {
     room_overlay_url,
     room_overlay_error_url,
     room_entity_zoom_cutoff,
+    min_zoom,
+    max_zoom,
     tile_hover_style,
     room_style,
     room_overlay_style,

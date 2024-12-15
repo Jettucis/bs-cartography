@@ -12162,7 +12162,7 @@
                 "name": "Moccasins",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-talk","theme-stonemason"]
+                "classes": ["icon-talk", "theme-stonemason"]
             },
             "geometry": {
                 "type": "Point",
@@ -12266,7 +12266,7 @@
                 "name": "Stonemason Design Book",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-recipe","theme-stonemason"]
+                "classes": ["icon-recipe", "theme-stonemason"]
             },
             "geometry": {
                 "type": "Point",
@@ -12383,7 +12383,7 @@
                 "name": "Stone Bank",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-bank","theme-miner"]
+                "classes": ["icon-bank", "theme-miner"]
             },
             "geometry": {
                 "type": "Point",
@@ -12396,7 +12396,7 @@
                 "name": "Timber Bank",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-bank","theme-carpenter"]
+                "classes": ["icon-bank", "theme-carpenter"]
             },
             "geometry": {
                 "type": "Point",
@@ -12409,7 +12409,7 @@
                 "name": "Scobu the Vague",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-talk","theme-bonewright"]
+                "classes": ["icon-talk", "theme-bonewright"]
             },
             "geometry": {
                 "type": "Point",
@@ -12422,7 +12422,7 @@
                 "name": "Mogorob",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-shop","theme-stonemason"]
+                "classes": ["icon-shop", "theme-stonemason"]
             },
             "geometry": {
                 "type": "Point",
@@ -12435,7 +12435,7 @@
                 "name": "Poffit",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-shop","theme-miner"]
+                "classes": ["icon-shop", "theme-miner"]
             },
             "geometry": {
                 "type": "Point",
@@ -12448,7 +12448,7 @@
                 "name": "Spood",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-shop","theme-miner"]
+                "classes": ["icon-shop", "theme-miner"]
             },
             "geometry": {
                 "type": "Point",
@@ -12461,7 +12461,7 @@
                 "name": "Bobble",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-shop","theme-miner"]
+                "classes": ["icon-shop", "theme-miner"]
             },
             "geometry": {
                 "type": "Point",
@@ -12513,7 +12513,7 @@
                 "name": "Gamajig",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-talk","theme-obstacle"]
+                "classes": ["icon-talk", "theme-obstacle"]
             },
             "geometry": {
                 "type": "Point",
@@ -12526,7 +12526,7 @@
                 "name": "Pops",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-talk","theme-obstacle"]
+                "classes": ["icon-talk", "theme-obstacle"]
             },
             "geometry": {
                 "type": "Point",
@@ -12578,7 +12578,7 @@
                 "name": "Timber Bank",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-bank","theme-carpenter"]
+                "classes": ["icon-bank", "theme-carpenter"]
             },
             "geometry": {
                 "type": "Point",
@@ -12591,7 +12591,7 @@
                 "name": "Ore and Ingots Bank",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-bank","theme-miner"]
+                "classes": ["icon-bank", "theme-miner"]
             },
             "geometry": {
                 "type": "Point",
@@ -12604,7 +12604,7 @@
                 "name": "Blacksmith Design Book",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-recipe","theme-blacksmith"]
+                "classes": ["icon-recipe", "theme-blacksmith"]
             },
             "geometry": {
                 "type": "Point",
@@ -12721,7 +12721,7 @@
                 "name": "Floor Tentacle",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-aggressive"]
+                "classes": ["icon-minefighter", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",
@@ -12734,7 +12734,7 @@
                 "name": "Floor Tentacle",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-aggressive"]
+                "classes": ["icon-minefighter", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",
@@ -12747,7 +12747,7 @@
                 "name": "Floor Tentacle",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-aggressive"]
+                "classes": ["icon-minefighter", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",
@@ -12877,7 +12877,7 @@
                 "name": "Fire Toad",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-neutral"]
+                "classes": ["icon-minefighter", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",
@@ -12890,7 +12890,7 @@
                 "name": "Fire Toad",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-neutral"]
+                "classes": ["icon-minefighter", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",
@@ -12903,7 +12903,7 @@
                 "name": "Fire Toad",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-neutral"]
+                "classes": ["icon-minefighter", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",
@@ -12916,7 +12916,7 @@
                 "name": "Fire Toad",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-neutral"]
+                "classes": ["icon-minefighter", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",
@@ -12929,7 +12929,7 @@
                 "name": "Fire Toad",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-neutral"]
+                "classes": ["icon-minefighter", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",
@@ -12942,7 +12942,7 @@
                 "name": "Quinto",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-talk","theme-obstacle"]
+                "classes": ["icon-talk", "theme-obstacle"]
             },
             "geometry": {
                 "type": "Point",
@@ -13176,7 +13176,7 @@
                 "name": "Fire Toad",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-neutral"]
+                "classes": ["icon-minefighter", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",
@@ -13189,7 +13189,7 @@
                 "name": "Fire Toad",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-neutral"]
+                "classes": ["icon-minefighter", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",
@@ -13202,7 +13202,7 @@
                 "name": "Fire Toad",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-neutral"]
+                "classes": ["icon-minefighter", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",
@@ -13215,7 +13215,7 @@
                 "name": "Fire Toad",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-neutral"]
+                "classes": ["icon-minefighter", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",
@@ -13228,7 +13228,7 @@
                 "name": "Fire Toad",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-neutral"]
+                "classes": ["icon-minefighter", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",
@@ -13241,7 +13241,7 @@
                 "name": "Skeleton Miner",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-aggressive"]
+                "classes": ["icon-minefighter", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",
@@ -13254,7 +13254,7 @@
                 "name": "Skeleton Miner",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-aggressive"]
+                "classes": ["icon-minefighter", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",
@@ -13267,7 +13267,7 @@
                 "name": "Skeleton Miner",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-aggressive"]
+                "classes": ["icon-minefighter", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",
@@ -13280,7 +13280,7 @@
                 "name": "Skeleton Miner",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-aggressive"]
+                "classes": ["icon-minefighter", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",
@@ -13293,7 +13293,7 @@
                 "name": "Skeleton Miner",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-aggressive"]
+                "classes": ["icon-minefighter", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",
@@ -13306,7 +13306,7 @@
                 "name": "Skeleton Miner",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-aggressive"]
+                "classes": ["icon-minefighter", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",
@@ -13319,7 +13319,7 @@
                 "name": "Skeleton Miner",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-aggressive"]
+                "classes": ["icon-minefighter", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",
@@ -13332,7 +13332,7 @@
                 "name": "Skeleton Miner",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-aggressive"]
+                "classes": ["icon-minefighter", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",
@@ -13345,7 +13345,7 @@
                 "name": "Floor Tentacle",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-aggressive"]
+                "classes": ["icon-minefighter", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",
@@ -13358,7 +13358,7 @@
                 "name": "Floor Tentacle",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-aggressive"]
+                "classes": ["icon-minefighter", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",
@@ -13371,7 +13371,7 @@
                 "name": "Floor Tentacle",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-aggressive"]
+                "classes": ["icon-minefighter", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",
@@ -13384,7 +13384,7 @@
                 "name": "Floor Tentacle",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-aggressive"]
+                "classes": ["icon-minefighter", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",
@@ -13397,7 +13397,7 @@
                 "name": "Floor Tentacle",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-aggressive"]
+                "classes": ["icon-minefighter", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",
@@ -13423,7 +13423,7 @@
                 "name": "Gas Vent",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-obstacle","theme-item"]
+                "classes": ["icon-obstacle", "theme-item"]
             },
             "geometry": {
                 "type": "Point",
@@ -13436,7 +13436,7 @@
                 "name": "Gas Vent",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-obstacle","theme-item"]
+                "classes": ["icon-obstacle", "theme-item"]
             },
             "geometry": {
                 "type": "Point",
@@ -13449,7 +13449,7 @@
                 "name": "Gas Vent",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-obstacle","theme-item"]
+                "classes": ["icon-obstacle", "theme-item"]
             },
             "geometry": {
                 "type": "Point",
@@ -13670,7 +13670,7 @@
                 "name": "Electric Snail",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-neutral"]
+                "classes": ["icon-minefighter", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",
@@ -13683,7 +13683,7 @@
                 "name": "Electric Snail",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-neutral"]
+                "classes": ["icon-minefighter", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",
@@ -13696,7 +13696,7 @@
                 "name": "Electric Snail",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-neutral"]
+                "classes": ["icon-minefighter", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",
@@ -13709,7 +13709,7 @@
                 "name": "Electric Snail",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-neutral"]
+                "classes": ["icon-minefighter", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",
@@ -13722,7 +13722,7 @@
                 "name": "Giant Bat",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-neutral"]
+                "classes": ["icon-minefighter", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",
@@ -13735,7 +13735,7 @@
                 "name": "Giant Bat",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-neutral"]
+                "classes": ["icon-minefighter", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",
@@ -13748,7 +13748,7 @@
                 "name": "Giant Bat",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-neutral"]
+                "classes": ["icon-minefighter", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",
@@ -13761,7 +13761,7 @@
                 "name": "Gas Leech",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-obstacle","theme-item","shape-circle"]
+                "classes": ["icon-obstacle", "theme-item", "shape-circle"]
             },
             "geometry": {
                 "type": "Point",
@@ -13774,7 +13774,7 @@
                 "name": "Gas Leech",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-obstacle","theme-item","shape-circle"]
+                "classes": ["icon-obstacle", "theme-item", "shape-circle"]
             },
             "geometry": {
                 "type": "Point",
@@ -13787,7 +13787,7 @@
                 "name": "Gas Leech",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-obstacle","theme-item","shape-circle"]
+                "classes": ["icon-obstacle", "theme-item", "shape-circle"]
             },
             "geometry": {
                 "type": "Point",
@@ -13800,7 +13800,7 @@
                 "name": "Gas Leech",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-obstacle","theme-item","shape-circle"]
+                "classes": ["icon-obstacle", "theme-item", "shape-circle"]
             },
             "geometry": {
                 "type": "Point",
@@ -13813,7 +13813,7 @@
                 "name": "Gas Leech",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-obstacle","theme-item","shape-circle"]
+                "classes": ["icon-obstacle", "theme-item", "shape-circle"]
             },
             "geometry": {
                 "type": "Point",
@@ -13826,7 +13826,7 @@
                 "name": "Gas Leech",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-obstacle","theme-item","shape-circle"]
+                "classes": ["icon-obstacle", "theme-item", "shape-circle"]
             },
             "geometry": {
                 "type": "Point",
@@ -13839,7 +13839,7 @@
                 "name": "Bonewright Design Book",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-recipe","theme-bonewright"]
+                "classes": ["icon-recipe", "theme-bonewright"]
             },
             "geometry": {
                 "type": "Point",
@@ -13852,7 +13852,7 @@
                 "name": "Bones Bank",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-bank","theme-bonewright"]
+                "classes": ["icon-bank", "theme-bonewright"]
             },
             "geometry": {
                 "type": "Point",
@@ -13865,7 +13865,7 @@
                 "name": "Timber Bank",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-bank","theme-carpenter"]
+                "classes": ["icon-bank", "theme-carpenter"]
             },
             "geometry": {
                 "type": "Point",
@@ -14138,7 +14138,7 @@
                 "name": "Jangle",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-shop","theme-bonewright"]
+                "classes": ["icon-shop", "theme-bonewright"]
             },
             "geometry": {
                 "type": "Point",
@@ -14151,7 +14151,7 @@
                 "name": "Building Materials Bank",
                 "category": "Entity",
                 "size": [2, 1], 
-                "classes": ["icon-bank","theme-builder"]
+                "classes": ["icon-bank", "theme-builder"]
             },
             "geometry": {
                 "type": "Point",
@@ -14268,7 +14268,7 @@
                 "name": "Jack Grunger",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-talk","theme-miner"]
+                "classes": ["icon-talk", "theme-miner"]
             },
             "geometry": {
                 "type": "Point",
@@ -14307,7 +14307,7 @@
                 "name": "Rock",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-obstacle","theme-miner"]
+                "classes": ["icon-obstacle", "theme-miner"]
             },
             "geometry": {
                 "type": "Point",
@@ -14320,7 +14320,7 @@
                 "name": "Dusty Dogsworth",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-talk","theme-miner"]
+                "classes": ["icon-talk", "theme-miner"]
             },
             "geometry": {
                 "type": "Point",
@@ -14359,7 +14359,7 @@
                 "name": "Petunia Honest",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-talk","theme-miner"]
+                "classes": ["icon-talk", "theme-miner"]
             },
             "geometry": {
                 "type": "Point",
@@ -14411,7 +14411,7 @@
                 "name": "Beastmen",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-neutral"]
+                "classes": ["icon-minefighter", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",
@@ -14424,7 +14424,7 @@
                 "name": "Beastmen",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-neutral"]
+                "classes": ["icon-minefighter", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",
@@ -14437,7 +14437,7 @@
                 "name": "Beastmen",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-neutral"]
+                "classes": ["icon-minefighter", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",
@@ -14450,7 +14450,7 @@
                 "name": "Giant Rat",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-neutral"]
+                "classes": ["icon-minefighter", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",
@@ -14463,7 +14463,7 @@
                 "name": "Giant Rat",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-neutral"]
+                "classes": ["icon-minefighter", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",
@@ -14476,7 +14476,7 @@
                 "name": "Giant Rat",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-neutral"]
+                "classes": ["icon-minefighter", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",
@@ -14567,7 +14567,7 @@
                 "name": "Larry the Lump",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-talk","theme-miner"]
+                "classes": ["icon-talk", "theme-miner"]
             },
             "geometry": {
                 "type": "Point",
@@ -14580,7 +14580,7 @@
                 "name": "Mena Topple",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-talk","theme-miner"]
+                "classes": ["icon-talk", "theme-miner"]
             },
             "geometry": {
                 "type": "Point",
@@ -14593,7 +14593,7 @@
                 "name": "Stubbin",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-talk","theme-bonewright"]
+                "classes": ["icon-talk", "theme-bonewright"]
             },
             "geometry": {
                 "type": "Point",
@@ -14619,7 +14619,7 @@
                 "name": "Sammy Clod",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-talk","theme-obstacle"]
+                "classes": ["icon-talk", "theme-obstacle"]
             },
             "geometry": {
                 "type": "Point",
@@ -14645,7 +14645,7 @@
                 "name": "Molly Sly",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-talk","theme-miner"]
+                "classes": ["icon-talk", "theme-miner"]
             },
             "geometry": {
                 "type": "Point",
@@ -14723,7 +14723,7 @@
                 "name": "Minecrawler",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-neutral"]
+                "classes": ["icon-minefighter", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",
@@ -14736,7 +14736,7 @@
                 "name": "Minecrawler",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-neutral"]
+                "classes": ["icon-minefighter", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",
@@ -14749,7 +14749,7 @@
                 "name": "Minecrawler",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-neutral"]
+                "classes": ["icon-minefighter", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",
@@ -14762,7 +14762,7 @@
                 "name": "Minecrawler",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-neutral"]
+                "classes": ["icon-minefighter", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",
@@ -14775,7 +14775,7 @@
                 "name": "Minecrawler",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-neutral"]
+                "classes": ["icon-minefighter", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",
@@ -14788,7 +14788,7 @@
                 "name": "Minecrawler",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-neutral"]
+                "classes": ["icon-minefighter", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",
@@ -14801,7 +14801,7 @@
                 "name": "Minecrawler",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-neutral"]
+                "classes": ["icon-minefighter", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",
@@ -14814,7 +14814,7 @@
                 "name": "Minecrawler",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-neutral"]
+                "classes": ["icon-minefighter", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",
@@ -14827,7 +14827,7 @@
                 "name": "Minecrawler",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-neutral"]
+                "classes": ["icon-minefighter", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",
@@ -14840,7 +14840,7 @@
                 "name": "Minecrawler",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-neutral"]
+                "classes": ["icon-minefighter", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",
@@ -14853,7 +14853,7 @@
                 "name": "Podger Hughes",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-talk","theme-miner"]
+                "classes": ["icon-talk", "theme-miner"]
             },
             "geometry": {
                 "type": "Point",
@@ -14970,7 +14970,7 @@
                 "name": "Chuncrates",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-talk","theme-obstacle"]
+                "classes": ["icon-talk", "theme-obstacle"]
             },
             "geometry": {
                 "type": "Point",
@@ -14983,7 +14983,7 @@
                 "name": "Goblin Miner",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-aggressive"]
+                "classes": ["icon-minefighter", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",
@@ -14996,7 +14996,7 @@
                 "name": "Goblin Miner",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-aggressive"]
+                "classes": ["icon-minefighter", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",
@@ -15009,7 +15009,7 @@
                 "name": "Goblin Miner",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-aggressive"]
+                "classes": ["icon-minefighter", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",
@@ -15074,7 +15074,7 @@
                 "name": "Goblin Miner",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-aggressive"]
+                "classes": ["icon-minefighter", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",
@@ -15087,7 +15087,7 @@
                 "name": "Goblin Miner",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-aggressive"]
+                "classes": ["icon-minefighter", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",
@@ -15100,7 +15100,7 @@
                 "name": "Goblin Miner",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-aggressive"]
+                "classes": ["icon-minefighter", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",
@@ -15113,7 +15113,7 @@
                 "name": "Goblin Miner",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-aggressive"]
+                "classes": ["icon-minefighter", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",
@@ -15152,7 +15152,7 @@
                 "name": "Rope",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-item","theme-obstacle"]
+                "classes": ["icon-item", "theme-obstacle"]
             },
             "geometry": {
                 "type": "Point",
@@ -15165,7 +15165,7 @@
                 "name": "Gold Panning Notice",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-obstacle","theme-miner"]
+                "classes": ["icon-obstacle", "theme-miner"]
             },
             "geometry": {
                 "type": "Point",
@@ -15191,7 +15191,7 @@
                 "name": "Corrupted Miner",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-neutral"]
+                "classes": ["icon-minefighter", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",
@@ -15204,7 +15204,7 @@
                 "name": "Corrupted Miner",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-neutral"]
+                "classes": ["icon-minefighter", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",
@@ -15217,7 +15217,7 @@
                 "name": "Corrupted Miner",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-neutral"]
+                "classes": ["icon-minefighter", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",
@@ -15230,7 +15230,7 @@
                 "name": "Corrupted Miner",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-neutral"]
+                "classes": ["icon-minefighter", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",
@@ -15386,7 +15386,7 @@
                 "name": "Kobold",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-neutral"]
+                "classes": ["icon-minefighter", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",
@@ -15399,7 +15399,7 @@
                 "name": "Kobold",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-neutral"]
+                "classes": ["icon-minefighter", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",
@@ -15412,7 +15412,7 @@
                 "name": "Kobold",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-neutral"]
+                "classes": ["icon-minefighter", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",
@@ -15672,7 +15672,7 @@
                 "name": "Rockling",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-neutral"]
+                "classes": ["icon-minefighter", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",
@@ -15685,7 +15685,7 @@
                 "name": "Rockling",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-neutral"]
+                "classes": ["icon-minefighter", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",
@@ -15698,7 +15698,7 @@
                 "name": "Rockling",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-neutral"]
+                "classes": ["icon-minefighter", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",
@@ -15711,7 +15711,7 @@
                 "name": "Dread Shell",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-neutral"]
+                "classes": ["icon-minefighter", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",
@@ -15724,7 +15724,7 @@
                 "name": "Dread Shell",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-neutral"]
+                "classes": ["icon-minefighter", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",
@@ -15737,7 +15737,7 @@
                 "name": "Dread Shell",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-neutral"]
+                "classes": ["icon-minefighter", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",
@@ -15750,7 +15750,7 @@
                 "name": "Dread Shell",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-neutral"]
+                "classes": ["icon-minefighter", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",
@@ -15802,7 +15802,7 @@
                 "name": "Skallek",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-talk","theme-obstacle"]
+                "classes": ["icon-talk", "theme-obstacle"]
             },
             "geometry": {
                 "type": "Point",
@@ -15841,7 +15841,7 @@
                 "name": "Thaddeus Torrelli",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-talk","theme-obstacle"]
+                "classes": ["icon-talk", "theme-obstacle"]
             },
             "geometry": {
                 "type": "Point",
@@ -15854,7 +15854,7 @@
                 "name": "Dina Torrelli",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-shop","theme-blacksmith"]
+                "classes": ["icon-shop", "theme-blacksmith"]
             },
             "geometry": {
                 "type": "Point",
@@ -15867,7 +15867,7 @@
                 "name": "Metalith",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-neutral"]
+                "classes": ["icon-minefighter", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",
@@ -15880,7 +15880,7 @@
                 "name": "Metalith",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-neutral"]
+                "classes": ["icon-minefighter", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",
@@ -15893,7 +15893,7 @@
                 "name": "Metalith",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-neutral"]
+                "classes": ["icon-minefighter", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",
@@ -15906,7 +15906,7 @@
                 "name": "Metalith",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-neutral"]
+                "classes": ["icon-minefighter", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",
@@ -15919,7 +15919,7 @@
                 "name": "Metalith",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-neutral"]
+                "classes": ["icon-minefighter", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",
@@ -15932,7 +15932,7 @@
                 "name": "Metalith",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-neutral"]
+                "classes": ["icon-minefighter", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",
@@ -15945,7 +15945,7 @@
                 "name": "Metalith",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-neutral"]
+                "classes": ["icon-minefighter", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",
@@ -15958,7 +15958,7 @@
                 "name": "Metalith",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-neutral"]
+                "classes": ["icon-minefighter", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",
@@ -15971,7 +15971,7 @@
                 "name": "Metalith",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-neutral"]
+                "classes": ["icon-minefighter", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",
@@ -15984,7 +15984,7 @@
                 "name": "Metalith",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-neutral"]
+                "classes": ["icon-minefighter", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",
@@ -15997,7 +15997,7 @@
                 "name": "Cockroach",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-neutral"]
+                "classes": ["icon-minefighter", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",
@@ -16010,7 +16010,7 @@
                 "name": "Cockroach",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-neutral"]
+                "classes": ["icon-minefighter", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",
@@ -16023,7 +16023,7 @@
                 "name": "Cockroach",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-neutral"]
+                "classes": ["icon-minefighter", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",
@@ -16062,7 +16062,7 @@
                 "name": "Cockroach",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-neutral"]
+                "classes": ["icon-minefighter", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",
@@ -16075,7 +16075,7 @@
                 "name": "Cockroach",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-neutral"]
+                "classes": ["icon-minefighter", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",
@@ -16088,7 +16088,7 @@
                 "name": "Cockroach",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-neutral"]
+                "classes": ["icon-minefighter", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",
@@ -16101,7 +16101,7 @@
                 "name": "Cockroach",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-neutral"]
+                "classes": ["icon-minefighter", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",
@@ -16114,7 +16114,7 @@
                 "name": "Cockroach",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-neutral"]
+                "classes": ["icon-minefighter", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",
@@ -16127,7 +16127,7 @@
                 "name": "Cockroach",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-neutral"]
+                "classes": ["icon-minefighter", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",
@@ -16140,7 +16140,7 @@
                 "name": "Cockroach",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-neutral"]
+                "classes": ["icon-minefighter", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",
@@ -16283,7 +16283,7 @@
                 "name": "Gretel Torrelli",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-talk","theme-obstacle"]
+                "classes": ["icon-talk", "theme-obstacle"]
             },
             "geometry": {
                 "type": "Point",
@@ -16296,7 +16296,7 @@
                 "name": "Timber Bank",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-bank","theme-carpenter"]
+                "classes": ["icon-bank", "theme-carpenter"]
             },
             "geometry": {
                 "type": "Point",
@@ -16309,7 +16309,7 @@
                 "name": "Ore and Ingots Bank",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-bank","theme-miner"]
+                "classes": ["icon-bank", "theme-miner"]
             },
             "geometry": {
                 "type": "Point",
@@ -16322,7 +16322,7 @@
                 "name": "Blacksmith Design Book",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-recipe","theme-blacksmith"]
+                "classes": ["icon-recipe", "theme-blacksmith"]
             },
             "geometry": {
                 "type": "Point",
@@ -16543,7 +16543,7 @@
                 "name": "Stonewurm",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-aggressive"]
+                "classes": ["icon-minefighter", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",
@@ -16556,7 +16556,7 @@
                 "name": "Stonewurm",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-aggressive"]
+                "classes": ["icon-minefighter", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",
@@ -16569,7 +16569,7 @@
                 "name": "Stonewurm",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-aggressive"]
+                "classes": ["icon-minefighter", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",
@@ -16582,7 +16582,7 @@
                 "name": "Stonewurm",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-aggressive"]
+                "classes": ["icon-minefighter", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",
@@ -16595,7 +16595,7 @@
                 "name": "Stonewurm",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-aggressive"]
+                "classes": ["icon-minefighter", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",
@@ -16608,7 +16608,7 @@
                 "name": "Stonewurm",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-aggressive"]
+                "classes": ["icon-minefighter", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",
@@ -16621,7 +16621,7 @@
                 "name": "Stonewurm",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-aggressive"]
+                "classes": ["icon-minefighter", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",
@@ -16634,7 +16634,7 @@
                 "name": "Stonewurm",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-aggressive"]
+                "classes": ["icon-minefighter", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",
@@ -16647,7 +16647,7 @@
                 "name": "Stonewurm",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-aggressive"]
+                "classes": ["icon-minefighter", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",
@@ -16660,7 +16660,7 @@
                 "name": "Stonewurm",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-aggressive"]
+                "classes": ["icon-minefighter", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",
@@ -16946,7 +16946,7 @@
                 "name": "Tommaso Torrelli",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-miner","shape-circle"]
+                "classes": ["icon-miner", "shape-circle"]
             },
             "geometry": {
                 "type": "Point",
@@ -16959,7 +16959,7 @@
                 "name": "Therese Torrelli",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-shop","theme-miner"]
+                "classes": ["icon-shop", "theme-miner"]
             },
             "geometry": {
                 "type": "Point",
@@ -16972,7 +16972,7 @@
                 "name": "Explosives Bank",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-bank","theme-miner"]
+                "classes": ["icon-bank", "theme-miner"]
             },
             "geometry": {
                 "type": "Point",
@@ -17037,7 +17037,7 @@
                 "name": "Wraith",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-aggressive"]
+                "classes": ["icon-minefighter", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",
@@ -17050,7 +17050,7 @@
                 "name": "Wraith",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-aggressive"]
+                "classes": ["icon-minefighter", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",
@@ -17063,7 +17063,7 @@
                 "name": "Wraith",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-aggressive"]
+                "classes": ["icon-minefighter", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",
@@ -17076,7 +17076,7 @@
                 "name": "Wraith",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-aggressive"]
+                "classes": ["icon-minefighter", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",
@@ -17089,7 +17089,7 @@
                 "name": "Wraith",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-aggressive"]
+                "classes": ["icon-minefighter", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",
@@ -17102,7 +17102,7 @@
                 "name": "Wraith",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-aggressive"]
+                "classes": ["icon-minefighter", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",
@@ -17115,7 +17115,7 @@
                 "name": "Wraith",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-aggressive"]
+                "classes": ["icon-minefighter", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",
@@ -17128,7 +17128,7 @@
                 "name": "Wraith",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-aggressive"]
+                "classes": ["icon-minefighter", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",
@@ -17180,7 +17180,7 @@
                 "name": "Blob",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-aggressive"]
+                "classes": ["icon-minefighter", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",
@@ -17193,7 +17193,7 @@
                 "name": "Blob",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-aggressive"]
+                "classes": ["icon-minefighter", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",
@@ -17206,7 +17206,7 @@
                 "name": "Blob",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-aggressive"]
+                "classes": ["icon-minefighter", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",
@@ -17219,7 +17219,7 @@
                 "name": "Blob",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-aggressive"]
+                "classes": ["icon-minefighter", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",
@@ -17232,7 +17232,7 @@
                 "name": "Blob",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-aggressive"]
+                "classes": ["icon-minefighter", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",
@@ -17258,7 +17258,7 @@
                 "name": "Blob",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-aggressive"]
+                "classes": ["icon-minefighter", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",
@@ -17271,7 +17271,7 @@
                 "name": "Blob",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-aggressive"]
+                "classes": ["icon-minefighter", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",
@@ -17284,7 +17284,7 @@
                 "name": "Blob",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-aggressive"]
+                "classes": ["icon-minefighter", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",
@@ -17297,7 +17297,7 @@
                 "name": "Blob",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-aggressive"]
+                "classes": ["icon-minefighter", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",
@@ -17310,7 +17310,7 @@
                 "name": "Blob",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-minefighter","theme-aggressive"]
+                "classes": ["icon-minefighter", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",
@@ -17336,7 +17336,7 @@
                 "name": "Rock",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-obstacle","theme-miner"]
+                "classes": ["icon-obstacle", "theme-miner"]
             },
             "geometry": {
                 "type": "Point",
@@ -17349,7 +17349,7 @@
                 "name": "Rock",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-obstacle","theme-miner"]
+                "classes": ["icon-obstacle", "theme-miner"]
             },
             "geometry": {
                 "type": "Point",
