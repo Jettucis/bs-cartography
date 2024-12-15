@@ -27,11 +27,12 @@ const add_entities = (map) => {
         marker.entity_size = size
         marker.entity_map = map
         marker.update_size()
+        const link = feature.properties.link ? feature.properties.link : feature.properties.name
         if(ENV.DEBUG === true) {
-            marker.bindPopup(`<a class="leaflet-popup-entity" href="${config.href}${feature.properties.name}">${feature.properties.name}</a> ${feature.properties.classes.map(classname => `leaflet-marker-icon-${classname}`).join(' ')}`)
+            marker.bindPopup(`<a class="leaflet-popup-entity" href="${config.href}${link}">${feature.properties.name}</a> ${feature.properties.classes.map(classname => `leaflet-marker-icon-${classname}`).join(' ')}`)
         }
         if(ENV.DEBUG === false) {
-            marker.bindPopup(`<a class="leaflet-popup-entity" href="${config.href}${feature.properties.name}">${feature.properties.name}</a>`)
+            marker.bindPopup(`<a class="leaflet-popup-entity" href="${config.href}${link}">${feature.properties.name}</a>`)
         }
         return marker
     }

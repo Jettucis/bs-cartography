@@ -39,7 +39,8 @@ const highlight_entities = (map, entities, exact) => {
         pointToLayer: (feature, latlng) => {
             const size = feature.properties.size
             const coordinates = markers.adjust_coordinates(latlng, size)
-            return L.marker(coordinates, {icon: config.highlighted_entity_icon}).bindPopup(`<a class="leaflet-popup-highlighted-entity" href="${config.href}${feature.properties.name}">${feature.properties.name}</a>`)
+            const link = feature.properties.link ? feature.properties.link : feature.properties.name
+            return L.marker(coordinates, {icon: config.highlighted_entity_icon}).bindPopup(`<a class="leaflet-popup-highlighted-entity" href="${config.href}${link}">${feature.properties.name}</a>`)
         }
     })
     highlighted_entity_layer.addTo(map)
