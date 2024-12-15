@@ -2890,7 +2890,7 @@
         {
             "type": "Feature",
             "properties": {
-                "name": "Hayley Bannof",
+                "name": "Hayley Brannof",
                 "category": "Entity",
                 "size": [1, 1], 
                 "classes": ["icon-talk"]
@@ -12240,6 +12240,7 @@
             "type": "Feature",
             "properties": {
                 "name": "One Handed Ranged Workbench",
+                "link": "One Handed Ranged Workbench (stonemason)",
                 "category": "Entity",
                 "size": [1, 1], 
                 "classes": ["icon-stonemason"]
@@ -12253,6 +12254,7 @@
             "type": "Feature",
             "properties": {
                 "name": "One Handed Ranged Workbench",
+                "link": "One Handed Ranged Workbench (stonemason)",
                 "category": "Entity",
                 "size": [1, 1], 
                 "classes": ["icon-stonemason"]
@@ -12305,6 +12307,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Two Handed Melee Workbench",
+                "link": "Two Handed Melee Workbench (stonemason)",
                 "category": "Entity",
                 "size": [1, 1], 
                 "classes": ["icon-stonemason"]
@@ -12318,6 +12321,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Two Handed Melee Workbench",
+                "link": "Two Handed Melee Workbench (stonemason)",
                 "category": "Entity",
                 "size": [1, 1], 
                 "classes": ["icon-stonemason"]
@@ -12331,6 +12335,7 @@
             "type": "Feature",
             "properties": {
                 "name": "One Handed Melee Workbench",
+                "link": "One Handed Melee Workbench (stonemason)",
                 "category": "Entity",
                 "size": [2, 1], 
                 "classes": ["icon-stonemason"]
@@ -12344,6 +12349,7 @@
             "type": "Feature",
             "properties": {
                 "name": "One Handed Melee Workbench",
+                "link": "One Handed Melee Workbench (stonemason)",
                 "category": "Entity",
                 "size": [2, 1], 
                 "classes": ["icon-stonemason"]
@@ -12357,6 +12363,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Two Handed Ranged Workbench",
+                "link": "Two Handed Ranged Workbench (stonemason)",
                 "category": "Entity",
                 "size": [2, 1], 
                 "classes": ["icon-stonemason"]
@@ -12370,6 +12377,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Two Handed Ranged Workbench",
+                "link": "Two Handed Ranged Workbench (stonemason)",
                 "category": "Entity",
                 "size": [2, 1], 
                 "classes": ["icon-stonemason"]
@@ -13982,6 +13990,7 @@
             "type": "Feature",
             "properties": {
                 "name": "One Handed Melee Workbench",
+                "link": "One Handed Melee Workbench (bonewright)",
                 "category": "Entity",
                 "size": [1, 2], 
                 "classes": ["icon-bonewright"]
@@ -13995,6 +14004,7 @@
             "type": "Feature",
             "properties": {
                 "name": "One Handed Melee Workbench",
+                "link": "One Handed Melee Workbench (bonewright)",
                 "category": "Entity",
                 "size": [1, 2], 
                 "classes": ["icon-bonewright"]
@@ -14034,6 +14044,7 @@
             "type": "Feature",
             "properties": {
                 "name": "One Handed Range Workbench",
+                "link": "One Handed Range Workbench (bonewright)",
                 "category": "Entity",
                 "size": [1, 2], 
                 "classes": ["icon-bonewright"]
@@ -14047,6 +14058,7 @@
             "type": "Feature",
             "properties": {
                 "name": "One Handed Range Workbench",
+                "link": "One Handed Range Workbench (bonewright)",
                 "category": "Entity",
                 "size": [1, 2], 
                 "classes": ["icon-bonewright"]
@@ -14060,6 +14072,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Two Handed Range Workbench",
+                "link": "Two Handed Range Workbench (bonewright)",
                 "category": "Entity",
                 "size": [2, 1], 
                 "classes": ["icon-bonewright"]
@@ -14073,6 +14086,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Two Handed Melee Workbench",
+                "link": "Two Handed Melee Workbench (bonewright)",
                 "category": "Entity",
                 "size": [2, 1], 
                 "classes": ["icon-bonewright"]
@@ -14086,6 +14100,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Two Handed Melee Workbench",
+                "link": "Two Handed Melee Workbench (bonewright)",
                 "category": "Entity",
                 "size": [2, 1], 
                 "classes": ["icon-bonewright"]
@@ -14099,6 +14114,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Two Handed Range Workbench",
+                "link": "Two Handed Range Workbench (bonewright)",
                 "category": "Entity",
                 "size": [1, 2], 
                 "classes": ["icon-bonewright"]
@@ -14410,7 +14426,7 @@
           {
             "type": "Feature",
             "properties": {
-                "name": "Beastmen",
+                "name": "Beastman",
                 "category": "Entity",
                 "size": [1, 1], 
                 "classes": ["icon-minefighter", "theme-neutral"]
@@ -14423,7 +14439,7 @@
           {
             "type": "Feature",
             "properties": {
-                "name": "Beastmen",
+                "name": "Beastman",
                 "category": "Entity",
                 "size": [1, 1], 
                 "classes": ["icon-minefighter", "theme-neutral"]
@@ -14436,7 +14452,7 @@
           {
             "type": "Feature",
             "properties": {
-                "name": "Beastmen",
+                "name": "Beastman",
                 "category": "Entity",
                 "size": [1, 1], 
                 "classes": ["icon-minefighter", "theme-neutral"]
