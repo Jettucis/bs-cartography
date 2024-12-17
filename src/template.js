@@ -1,4 +1,4 @@
-const template_data = JSON.parse($('span.map-template-data').text())
+const template_data = $('#map').data()
 
 const types = {
     'Episode': 'episodes',
