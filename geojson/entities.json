@@ -17471,7 +17471,7 @@
                 "name": "Gremlin",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-neutral"]
+                "classes": ["icon-watchperson", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",
@@ -17484,7 +17484,7 @@
                 "name": "Gremlin",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-neutral"]
+                "classes": ["icon-watchperson", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",
@@ -17497,7 +17497,7 @@
                 "name": "Gremlin",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-neutral"]
+                "classes": ["icon-watchperson", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",
@@ -17822,7 +17822,7 @@
                 "name": "Porletta",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-talk","theme-obstacle"]
+                "classes": ["icon-talk", "theme-obstacle"]
             },
             "geometry": {
                 "type": "Point",  
@@ -17848,7 +17848,7 @@
                 "name": "Bilger",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-talk","theme-obstacle"]
+                "classes": ["icon-talk", "theme-obstacle"]
             },
             "geometry": {
                 "type": "Point",  
@@ -17861,7 +17861,7 @@
                 "name": "Roric",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-talk","theme-obstacle"]
+                "classes": ["icon-talk", "theme-obstacle"]
             },
             "geometry": {
                 "type": "Point",  
@@ -17913,7 +17913,7 @@
                 "name": "Bladrick",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-shop","theme-item"]
+                "classes": ["icon-shop", "theme-item"]
             },
             "geometry": {
                 "type": "Point",  
@@ -17939,7 +17939,7 @@
                 "name": "Ratman Grunt",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-neutral"]
+                "classes": ["icon-watchperson", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",  
@@ -17952,7 +17952,7 @@
                 "name": "Ratman Grunt",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-neutral"]
+                "classes": ["icon-watchperson", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",  
@@ -17965,7 +17965,7 @@
                 "name": "Ratman Grunt",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-neutral"]
+                "classes": ["icon-watchperson", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",  
@@ -17978,7 +17978,7 @@
                 "name": "Ratman Chief",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-neutral"]
+                "classes": ["icon-watchperson", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",  
@@ -17991,7 +17991,7 @@
                 "name": "Ratman Chief",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-neutral"]
+                "classes": ["icon-watchperson", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",  
@@ -18004,7 +18004,7 @@
                 "name": "Ratman Chief",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-neutral"]
+                "classes": ["icon-watchperson", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",  
@@ -18225,7 +18225,7 @@
                 "name": "Street Hag",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-neutral"]
+                "classes": ["icon-watchperson", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",  
@@ -18238,7 +18238,7 @@
                 "name": "Street Hag",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-neutral"]
+                "classes": ["icon-watchperson", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",  
@@ -18251,7 +18251,7 @@
                 "name": "Street Hag",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-neutral"]
+                "classes": ["icon-watchperson", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",  
@@ -18264,7 +18264,7 @@
                 "name": "Street Hag",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-neutral"]
+                "classes": ["icon-watchperson", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",  
@@ -18277,7 +18277,7 @@
                 "name": "Street Hag",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-neutral"]
+                "classes": ["icon-watchperson", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",  
@@ -18290,7 +18290,7 @@
                 "name": "Street Hag",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-neutral"]
+                "classes": ["icon-watchperson", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",  
@@ -18303,7 +18303,7 @@
                 "name": "Street Hag",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-neutral"]
+                "classes": ["icon-watchperson", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",  
@@ -18316,7 +18316,7 @@
                 "name": "Street Hag",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-neutral"]
+                "classes": ["icon-watchperson", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",  
@@ -18355,7 +18355,7 @@
                 "name": "Mawchest",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-neutral"]
+                "classes": ["icon-watchperson", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",  
@@ -18368,7 +18368,7 @@
                 "name": "Mawchest",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-neutral"]
+                "classes": ["icon-watchperson", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",  
@@ -18381,7 +18381,7 @@
                 "name": "Mawchest",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-neutral"]
+                "classes": ["icon-watchperson", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",  
@@ -18394,7 +18394,7 @@
                 "name": "Mawchest",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-neutral"]
+                "classes": ["icon-watchperson", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",  
@@ -18407,7 +18407,7 @@
                 "name": "Mawchest",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-neutral"]
+                "classes": ["icon-watchperson", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",  
@@ -18420,7 +18420,7 @@
                 "name": "Mawchest",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-neutral"]
+                "classes": ["icon-watchperson", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",  
@@ -18433,7 +18433,7 @@
                 "name": "Sewer Fiend",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-aggressive"]
+                "classes": ["icon-watchperson", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",  
@@ -18446,7 +18446,7 @@
                 "name": "Sewer Fiend",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-aggressive"]
+                "classes": ["icon-watchperson", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",  
@@ -18459,7 +18459,7 @@
                 "name": "Sewer Fiend",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-aggressive"]
+                "classes": ["icon-watchperson", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",  
@@ -18472,7 +18472,7 @@
                 "name": "Sewer Fiend",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-aggressive"]
+                "classes": ["icon-watchperson", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",  
@@ -18485,7 +18485,7 @@
                 "name": "Sewer Fiend",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-aggressive"]
+                "classes": ["icon-watchperson", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",  
@@ -18498,7 +18498,7 @@
                 "name": "Sewer Fiend",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-aggressive"]
+                "classes": ["icon-watchperson", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",  
@@ -18511,7 +18511,7 @@
                 "name": "Spectral Stalker",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-aggressive"]
+                "classes": ["icon-watchperson", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",  
@@ -18524,7 +18524,7 @@
                 "name": "Spectral Stalker",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-aggressive"]
+                "classes": ["icon-watchperson", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",  
@@ -18537,7 +18537,7 @@
                 "name": "Spectral Stalker",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-aggressive"]
+                "classes": ["icon-watchperson", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",  
@@ -18550,7 +18550,7 @@
                 "name": "Spectral Stalker",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-aggressive"]
+                "classes": ["icon-watchperson", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",  
@@ -18563,7 +18563,7 @@
                 "name": "Spectral Stalker",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-aggressive"]
+                "classes": ["icon-watchperson", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",  
@@ -18576,7 +18576,7 @@
                 "name": "Spectral Stalker",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-aggressive"]
+                "classes": ["icon-watchperson", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",  
@@ -18589,7 +18589,7 @@
                 "name": "Candelabra",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-search","theme-obstacle"]
+                "classes": ["icon-search", "theme-obstacle"]
             },
             "geometry": {
                 "type": "Point",  
@@ -18602,7 +18602,7 @@
                 "name": "Air Vent",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-search","theme-obstacle"]
+                "classes": ["icon-search", "theme-obstacle"]
             },
             "geometry": {
                 "type": "Point",  
@@ -18641,7 +18641,7 @@
                 "name": "Ignatius",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-shop","theme-merchant"]
+                "classes": ["icon-shop", "theme-merchant"]
             },
             "geometry": {
                 "type": "Point",  
@@ -18654,7 +18654,7 @@
                 "name": "Zombie",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-aggressive"]
+                "classes": ["icon-watchperson", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",  
@@ -18667,7 +18667,7 @@
                 "name": "Zombie",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-aggressive"]
+                "classes": ["icon-watchperson", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",  
@@ -18680,7 +18680,7 @@
                 "name": "Zombie",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-aggressive"]
+                "classes": ["icon-watchperson", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",  
@@ -18693,7 +18693,7 @@
                 "name": "Brute",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-neutral"]
+                "classes": ["icon-watchperson", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",  
@@ -18706,7 +18706,7 @@
                 "name": "Brute",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-neutral"]
+                "classes": ["icon-watchperson", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",  
@@ -18732,7 +18732,7 @@
                 "name": "Zombie",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-aggressive"]
+                "classes": ["icon-watchperson", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",  
@@ -18745,7 +18745,7 @@
                 "name": "Zombie",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-aggressive"]
+                "classes": ["icon-watchperson", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",  
@@ -18758,7 +18758,7 @@
                 "name": "Zombie",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-aggressive"]
+                "classes": ["icon-watchperson", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",  
