@@ -19018,7 +19018,7 @@
                 "name": "Tambor Stubbleman",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-talk","theme-obstacle"]
+                "classes": ["icon-talk", "theme-obstacle"]
             },
             "geometry": {
                 "type": "Point",  
@@ -19031,7 +19031,7 @@
                 "name": "Franz",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-shop","theme-leatherworker"]
+                "classes": ["icon-shop", "theme-leatherworker"]
             },
             "geometry": {
                 "type": "Point",  
@@ -19044,7 +19044,7 @@
                 "name": "Building Materials Bank",
                 "category": "Entity",
                 "size": [1, 2], 
-                "classes": ["icon-bank","theme-builder"]
+                "classes": ["icon-bank", "theme-builder"]
             },
             "geometry": {
                 "type": "Point",  
@@ -19096,7 +19096,7 @@
                 "name": "Spiky Ball",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-aggressive"]
+                "classes": ["icon-watchperson", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",  
@@ -19109,7 +19109,7 @@
                 "name": "Spiky Ball",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-aggressive"]
+                "classes": ["icon-watchperson", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",  
@@ -19122,7 +19122,7 @@
                 "name": "Spiky Ball",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-aggressive"]
+                "classes": ["icon-watchperson", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",  
@@ -19135,7 +19135,7 @@
                 "name": "Spiky Ball",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-aggressive"]
+                "classes": ["icon-watchperson", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",  
@@ -19148,7 +19148,7 @@
                 "name": "Spiky Ball",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-aggressive"]
+                "classes": ["icon-watchperson", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",  
@@ -19161,7 +19161,7 @@
                 "name": "Spiky Ball",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-aggressive"]
+                "classes": ["icon-watchperson", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",  
@@ -19174,7 +19174,7 @@
                 "name": "Giant Slug",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-neutral"]
+                "classes": ["icon-watchperson", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",  
@@ -19187,7 +19187,7 @@
                 "name": "Giant Slug",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-neutral"]
+                "classes": ["icon-watchperson", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",  
@@ -19200,7 +19200,7 @@
                 "name": "Giant Slug",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-neutral"]
+                "classes": ["icon-watchperson", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",  
@@ -19213,7 +19213,7 @@
                 "name": "Giant Slug",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-neutral"]
+                "classes": ["icon-watchperson", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",  
@@ -19226,7 +19226,7 @@
                 "name": "Tannery Recipe Book",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-recipe","theme-leatherworker"]
+                "classes": ["icon-recipe", "theme-leatherworker"]
             },
             "geometry": {
                 "type": "Point",  
@@ -19239,7 +19239,7 @@
                 "name": "Hides Bank",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-bank","theme-leatherworker"]
+                "classes": ["icon-bank", "theme-leatherworker"]
             },
             "geometry": {
                 "type": "Point",  
@@ -19252,7 +19252,7 @@
                 "name": "Kitty the Tanner",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-talk","theme-leatherworker"]
+                "classes": ["icon-talk", "theme-leatherworker"]
             },
             "geometry": {
                 "type": "Point",  
@@ -19655,7 +19655,7 @@
                 "name": "Gallabast the Ragged",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-talk","theme-detective"]
+                "classes": ["icon-talk", "theme-detective"]
             },
             "geometry": {
                 "type": "Point",  
@@ -19668,7 +19668,7 @@
                 "name": "Trash Heap Monster",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-neutral"]
+                "classes": ["icon-watchperson", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",  
@@ -19681,7 +19681,7 @@
                 "name": "Trash Heap Monster",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-neutral"]
+                "classes": ["icon-watchperson", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",  
@@ -19694,7 +19694,7 @@
                 "name": "Trash Heap Monster",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-neutral"]
+                "classes": ["icon-watchperson", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",  
@@ -19707,7 +19707,7 @@
                 "name": "Leather Goods Design Book",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-recipe","theme-leatherworker"]
+                "classes": ["icon-recipe", "theme-leatherworker"]
             },
             "geometry": {
                 "type": "Point",  
@@ -19720,7 +19720,7 @@
                 "name": "Leathers Bank",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-bank","theme-leatherworker"]
+                "classes": ["icon-bank", "theme-leatherworker"]
             },
             "geometry": {
                 "type": "Point",  
@@ -19759,7 +19759,7 @@
                 "name": "Jack Wellis",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-talk","theme-leatherworker"]
+                "classes": ["icon-talk", "theme-leatherworker"]
             },
             "geometry": {
                 "type": "Point",  
@@ -19785,7 +19785,7 @@
                 "name": "Lenny Gruff",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-talk","theme-obstacle"]
+                "classes": ["icon-talk", "theme-obstacle"]
             },
             "geometry": {
                 "type": "Point",  
@@ -19798,7 +19798,7 @@
                 "name": "Rachella",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-talk","theme-obstacle"]
+                "classes": ["icon-talk", "theme-obstacle"]
             },
             "geometry": {
                 "type": "Point",  
@@ -19941,7 +19941,7 @@
                 "name": "Dintch",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-shop","theme-leatherworker"]
+                "classes": ["icon-shop", "theme-leatherworker"]
             },
             "geometry": {
                 "type": "Point",  
@@ -19993,7 +19993,7 @@
                 "name": "Street Brawler",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-neutral"]
+                "classes": ["icon-watchperson", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",  
@@ -20006,7 +20006,7 @@
                 "name": "Street Brawler",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-neutral"]
+                "classes": ["icon-watchperson", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",  
@@ -20019,7 +20019,7 @@
                 "name": "Street Brawler",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-neutral"]
+                "classes": ["icon-watchperson", "theme-neutral"]
             },
             "geometry": {
                 "type": "Point",  
@@ -20032,7 +20032,7 @@
                 "name": "Desk Sergeant",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-shop","theme-detective"]
+                "classes": ["icon-shop", "theme-detective"]
             },
             "geometry": {
                 "type": "Point",  
@@ -20045,7 +20045,7 @@
                 "name": "Sergeant Fowler",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-talk","theme-detective"]
+                "classes": ["icon-talk", "theme-detective"]
             },
             "geometry": {
                 "type": "Point",  
@@ -20097,7 +20097,7 @@
                 "name": "Captain Waltain",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-talk","theme-obstacle"]
+                "classes": ["icon-talk", "theme-obstacle"]
             },
             "geometry": {
                 "type": "Point",  
@@ -20123,7 +20123,7 @@
                 "name": "Investigations Board",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-clipboard","theme-detective"]
+                "classes": ["icon-clipboard", "theme-detective"]
             },
             "geometry": {
                 "type": "Point",  
@@ -20136,7 +20136,7 @@
                 "name": "Sergeant Scowler",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-talk","theme-obstacle"]
+                "classes": ["icon-talk", "theme-obstacle"]
             },
             "geometry": {
                 "type": "Point",  
@@ -20149,7 +20149,7 @@
                 "name": "Inspector Fairhogg",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-talk","theme-detective"]
+                "classes": ["icon-talk", "theme-detective"]
             },
             "geometry": {
                 "type": "Point",  
@@ -20331,7 +20331,7 @@
                 "name": "Potions Bank",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-bank","theme-alchemist"]
+                "classes": ["icon-bank", "theme-alchemist"]
             },
             "geometry": {
                 "type": "Point",  
@@ -20357,7 +20357,7 @@
                 "name": "Fletcher",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-talk","theme-detective"]
+                "classes": ["icon-talk", "theme-detective"]
             },
             "geometry": {
                 "type": "Point",  
@@ -20370,7 +20370,7 @@
                 "name": "Bocca",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-shop","theme-leatherworker"]
+                "classes": ["icon-shop", "theme-leatherworker"]
             },
             "geometry": {
                 "type": "Point",  
@@ -20422,7 +20422,7 @@
                 "name": "Burglar",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-aggressive"]
+                "classes": ["icon-watchperson", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",  
@@ -20435,7 +20435,7 @@
                 "name": "Burglar",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-aggressive"]
+                "classes": ["icon-watchperson", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",  
@@ -20448,7 +20448,7 @@
                 "name": "Burglar",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-aggressive"]
+                "classes": ["icon-watchperson", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",  
@@ -20461,7 +20461,7 @@
                 "name": "Burglar",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-aggressive"]
+                "classes": ["icon-watchperson", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",  
@@ -20474,7 +20474,7 @@
                 "name": "Burglar",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-aggressive"]
+                "classes": ["icon-watchperson", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",  
@@ -20513,7 +20513,7 @@
                 "name": "Burglar",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-aggressive"]
+                "classes": ["icon-watchperson", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",  
@@ -20526,7 +20526,7 @@
                 "name": "Burglar",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-aggressive"]
+                "classes": ["icon-watchperson", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",  
@@ -20539,7 +20539,7 @@
                 "name": "Burglar",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-aggressive"]
+                "classes": ["icon-watchperson", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",  
@@ -20552,7 +20552,7 @@
                 "name": "Burglar",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-aggressive"]
+                "classes": ["icon-watchperson", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",  
@@ -20565,7 +20565,7 @@
                 "name": "Burglar",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-aggressive"]
+                "classes": ["icon-watchperson", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",  
@@ -20617,7 +20617,7 @@
                 "name": "Rom Harrington",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-talk","theme-merchant"]
+                "classes": ["icon-talk", "theme-merchant"]
             },
             "geometry": {
                 "type": "Point",  
@@ -20630,7 +20630,7 @@
                 "name": "Baldwin Vranch",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-talk","theme-merchant"]
+                "classes": ["icon-talk", "theme-merchant"]
             },
             "geometry": {
                 "type": "Point",  
@@ -20643,7 +20643,7 @@
                 "name": "Channer Goldway",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-talk","theme-merchant"]
+                "classes": ["icon-talk", "theme-merchant"]
             },
             "geometry": {
                 "type": "Point",  
@@ -20656,7 +20656,7 @@
                 "name": "Guild Bounty Board",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-clipboard","theme-merchant"]
+                "classes": ["icon-clipboard", "theme-merchant"]
             },
             "geometry": {
                 "type": "Point",  
@@ -20721,7 +20721,7 @@
                 "name": "Crenopolis Planning Officer",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-talk","theme-obstacle"]
+                "classes": ["icon-talk", "theme-obstacle"]
             },
             "geometry": {
                 "type": "Point",  
@@ -20747,7 +20747,7 @@
                 "name": "Counterfeiter",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-aggressive"]
+                "classes": ["icon-watchperson", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",  
@@ -20760,7 +20760,7 @@
                 "name": "Counterfeiter",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-aggressive"]
+                "classes": ["icon-watchperson", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",  
@@ -20773,7 +20773,7 @@
                 "name": "Counterfeiter",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-aggressive"]
+                "classes": ["icon-watchperson", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",  
@@ -20786,7 +20786,7 @@
                 "name": "Counterfeiter",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-aggressive"]
+                "classes": ["icon-watchperson", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",  
@@ -20799,7 +20799,7 @@
                 "name": "Counterfeiter",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-aggressive"]
+                "classes": ["icon-watchperson", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",  
@@ -20812,7 +20812,7 @@
                 "name": "Counterfeiter",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-aggressive"]
+                "classes": ["icon-watchperson", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",  
@@ -20825,7 +20825,7 @@
                 "name": "Counterfeiter",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-aggressive"]
+                "classes": ["icon-watchperson", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",  
@@ -20838,7 +20838,7 @@
                 "name": "Counterfeiter",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-aggressive"]
+                "classes": ["icon-watchperson", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",  
@@ -20851,7 +20851,7 @@
                 "name": "Counterfeiter",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-aggressive"]
+                "classes": ["icon-watchperson", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",  
@@ -20864,7 +20864,7 @@
                 "name": "Counterfeiter",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-aggressive"]
+                "classes": ["icon-watchperson", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",  
@@ -20903,7 +20903,7 @@
                 "name": "Pearl",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-shop","theme-alchemist"]
+                "classes": ["icon-shop", "theme-alchemist"]
             },
             "geometry": {
                 "type": "Point",  
@@ -20994,7 +20994,7 @@
                 "name": "Constable Carver",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-talk","theme-obstacle"]
+                "classes": ["icon-talk", "theme-obstacle"]
             },
             "geometry": {
                 "type": "Point",  
@@ -21111,7 +21111,7 @@
                 "name": "Hamila Jimore",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-talk","theme-merchant"]
+                "classes": ["icon-talk", "theme-merchant"]
             },
             "geometry": {
                 "type": "Point",  
@@ -21124,7 +21124,7 @@
                 "name": "Marina",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-shop","theme-alchemist"]
+                "classes": ["icon-shop", "theme-alchemist"]
             },
             "geometry": {
                 "type": "Point",  
@@ -21228,7 +21228,7 @@
                 "name": "Kaynat's Doorman",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-talk","theme-obstacle"]
+                "classes": ["icon-talk", "theme-obstacle"]
             },
             "geometry": {
                 "type": "Point",  
@@ -21241,7 +21241,7 @@
                 "name": "Kaynat Wray",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-talk","theme-obstacle"]
+                "classes": ["icon-talk", "theme-obstacle"]
             },
             "geometry": {
                 "type": "Point",  
