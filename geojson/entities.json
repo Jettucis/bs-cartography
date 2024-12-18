@@ -19717,6 +19717,19 @@
           {
             "type": "Feature",
             "properties": {
+                "name": "Upholstery Station",
+                "category": "Entity",
+                "size": [2, 2], 
+                "classes": ["icon-leatherworker"]
+            },
+            "geometry": {
+                "type": "Point",  
+                "coordinates": [481, 133]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
                 "name": "Leathers Bank",
                 "category": "Entity",
                 "size": [1, 1], 
