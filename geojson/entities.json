@@ -18326,7 +18326,7 @@
           {
             "type": "Feature",
             "properties": {
-                "name": "Gangsters' Stakeout",
+                "name": "Gangsters' Back Stakeout",
                 "category": "Entity",
                 "size": [1, 2], 
                 "classes": ["icon-detective"]
