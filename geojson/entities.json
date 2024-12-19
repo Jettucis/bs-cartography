@@ -21579,7 +21579,7 @@
                 "name": "Mugger",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-aggressive"]
+                "classes": ["icon-watchperson", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",  
@@ -21592,7 +21592,7 @@
                 "name": "Mugger",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-aggressive"]
+                "classes": ["icon-watchperson", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",  
@@ -21605,7 +21605,7 @@
                 "name": "Mugger",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-aggressive"]
+                "classes": ["icon-watchperson", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",  
@@ -21618,7 +21618,7 @@
                 "name": "Mugger",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-aggressive"]
+                "classes": ["icon-watchperson", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",  
@@ -21631,7 +21631,7 @@
                 "name": "Mugger",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-aggressive"]
+                "classes": ["icon-watchperson", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",  
@@ -21644,7 +21644,7 @@
                 "name": "Mugger",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-aggressive"]
+                "classes": ["icon-watchperson", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",  
@@ -21657,7 +21657,7 @@
                 "name": "Mugger",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-aggressive"]
+                "classes": ["icon-watchperson", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",  
@@ -21670,7 +21670,7 @@
                 "name": "Mugger",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-aggressive"]
+                "classes": ["icon-watchperson", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",  
@@ -21683,7 +21683,7 @@
                 "name": "Mugger",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-aggressive"]
+                "classes": ["icon-watchperson", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",  
@@ -21696,7 +21696,7 @@
                 "name": "Mugger",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-aggressive"]
+                "classes": ["icon-watchperson", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",  
@@ -21709,7 +21709,7 @@
                 "name": "Gangster",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-aggressive"]
+                "classes": ["icon-watchperson", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",  
@@ -21722,7 +21722,7 @@
                 "name": "Gangster",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-aggressive"]
+                "classes": ["icon-watchperson", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",  
@@ -21735,7 +21735,7 @@
                 "name": "Gangster",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-aggressive"]
+                "classes": ["icon-watchperson", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",  
@@ -21748,7 +21748,7 @@
                 "name": "Gangster",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-aggressive"]
+                "classes": ["icon-watchperson", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",  
@@ -21761,7 +21761,7 @@
                 "name": "Gangster",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-aggressive"]
+                "classes": ["icon-watchperson", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",  
@@ -21774,7 +21774,7 @@
                 "name": "Gangster",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-aggressive"]
+                "classes": ["icon-watchperson", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",  
@@ -21787,7 +21787,7 @@
                 "name": "Gangster",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-aggressive"]
+                "classes": ["icon-watchperson", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",  
@@ -21800,7 +21800,7 @@
                 "name": "Gangster",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-aggressive"]
+                "classes": ["icon-watchperson", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",  
@@ -21813,7 +21813,7 @@
                 "name": "Gangster",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-aggressive"]
+                "classes": ["icon-watchperson", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",  
@@ -21826,7 +21826,7 @@
                 "name": "Gangster",
                 "category": "Entity",
                 "size": [1, 1], 
-                "classes": ["icon-watchperson","theme-aggressive"]
+                "classes": ["icon-watchperson", "theme-aggressive"]
             },
             "geometry": {
                 "type": "Point",  
